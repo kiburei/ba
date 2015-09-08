@@ -1,4 +1,4 @@
-<?php namespace App\Http\Innovation;
+<?php namespace App\Repos\Innovation;
 
 
 use App\Innovation;

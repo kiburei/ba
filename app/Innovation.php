@@ -27,4 +27,14 @@ class Innovation extends Model
     {
         return $this->belongsTo('App\User');
     }
+
+    /**
+     * An innovation can have multiple chats
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function chats()
+    {
+        return $this->hasMany('App\Chat');
+    }
 }
