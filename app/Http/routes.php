@@ -14,3 +14,25 @@
 get('/', function () {
     return view('ba.home.index');
 });
+
+//Dashboard retrieval routes
+Route::get('dashboard/innovator', 'Dashboard\DashboardController@showInnovator');
+Route::get('dashboard/investor', 'Dashboard\DashboardController@showInvestor');
+
+
+// Authentication routes...
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+
+// Registration routes...
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
+
+//Logout route
+Route::get('logout', function()
+{
+    \Auth::logout();
+
+    return view('auth.login');
+});
