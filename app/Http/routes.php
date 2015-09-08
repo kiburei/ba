@@ -14,3 +14,20 @@
 get('/', function () {
     return view('ba.home.index');
 });
+
+/*
+ * Routes for the innovations
+ */
+get('/innovation/all', 'InnovationController@index');
+get('/innovation/{id}', 'InnovationController@show');
+get('/innovation/{id}/update', 'InnovationController@edit');
+get('/innovation/{id}/delete', 'InnovationController@destroy');
+post('/innovation/', 'InnovationController@store');
+post('/innovation/{id}/update', 'InnovationController@update');
+
+
+/*
+ * Routes for the Comments
+ */
+
+post('/innovation/{id}/chat', 'CommentController@store');
