@@ -5,11 +5,11 @@ use App\Innovation;
 
 class CommentRepository {
 
-    public function startConversation($investor, $innovator)
+    public function startConversation($investor, $innovation)
     {
         $chat = Chat::create([
             'investor_id' => $investor,
-            'innovator_id' => $innovator
+            'innovation_id' => $innovation
         ]);
 
         return $chat;

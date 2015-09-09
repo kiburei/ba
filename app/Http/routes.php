@@ -12,60 +12,80 @@
 */
 
 get('/', function () {
-    return view('ba.home.index');
+    return view('home.index');
 });
 
 /*
  * Routes for the innovations
  */
-get('/innovation/all', 'InnovationController@index');
-get('/innovation/{id}', 'InnovationController@show');
-get('/innovation/{id}/update', 'InnovationController@edit');
-get('/innovation/{id}/delete', 'InnovationController@destroy');
-post('/innovation/', 'InnovationController@store');
-post('/innovation/{id}/update', 'InnovationController@update');
+get('/innovation/{id}', [
+        'as' => 'specificInnovation', 'uses' => 'InnovationController@show'
+    ]);
 
+get('/innovation/{id}/update', [
+        'as' => 'editInnovation', 'uses' => 'InnovationController@edit'
+    ]);
+
+get('/innovation/{id}/delete', [
+        'as' => 'deleteInnovation', 'uses' => 'InnovationController@destroy'
+    ]);
+
+post('/innovation/', [
+        'as' => 'createInnovation', 'uses' => 'InnovationController@store'
+    ]);
+
+post('/innovation/{id}/update', [
+        'as' => 'updateInnovation', 'uses' => 'InnovationController@update'
+    ]);
+
+get('innovations', function()
+{
+    $query = Request::get('q');
+
+    $repo = App::make('App\Repos\Innovation\InnovationRepository');
+
+    $innovations = $query
+
+        ? $repo->search($query)
+        : $repo->getAll();
+
+    return View('dashboards.innovator')->withInnovations($innovations);
+});
 
 /*
  * Routes for the Comments
  */
 
-post('/innovation/{id}/chat', 'CommentController@store');
+post('/innovation/{id}/chat', [
+        'as' => 'storeComment', 'uses' => 'CommentController@store'
+    ]);
 
 //Dashboard retrieval routes
-Route::get('dashboard/innovator', 'Dashboard\DashboardController@showInnovator');
-Route::get('dashboard/investor', 'Dashboard\DashboardController@showInvestor');
+get('dashboard/innovator', [
+        'as' => 'innovatorDashboard', 'uses' => 'DashboardController@innovator'
+    ]);
+
+get('dashboard/investor', [
+        'as' => 'investorDashboard', 'uses' => 'DashboardController@investor'
+    ]);
 
 
-// Authentication routes...
-Route::get('auth/login', 'Auth\AuthController@getLogin');
-Route::post('auth/login', 'Auth\AuthController@postLogin');
-Route::get('auth/logout', 'Auth\AuthController@getLogout');
+// Authentication routes
+get('login', [
+        'as' => 'login', 'uses' => 'Auth\AuthController@getLogin'
+    ]);
+post('login',[
+        'as' => 'login', 'uses' =>  'Auth\AuthController@postLogin'
+    ]);
+get('logout',[
+        'as' => 'logout', 'uses' =>   'Auth\AuthController@getLogout'
+    ]);
 
 // Registration routes...
-Route::get('auth/register', 'Auth\AuthController@getRegister');
-Route::post('auth/register', 'Auth\AuthController@postRegister');
+get('register', [
+        'as' => 'register', 'uses' => 'Auth\AuthController@getRegister'
+    ]);
 
-//Logout route
-Route::get('logout', function()
-{
-    \Auth::logout();
-
-    return view('auth.login');
-});
-
-//The search innovations section
-
-Route::get('innovations', function()
-{
-   $query = Request::get('q');
-
-   $repo = App::make('App\Repos\Innovation\InnovationRepository');
-
-   $innovations = $query
-
-       ? $repo->search($query)
-       : $repo->getAll();
-
-    return View('dashboards.innovator')->withInnovations($innovations);
-});
+post('register', [
+        'as' => 'register', 'uses' => 'Auth\AuthController@postRegister'
+    ]);

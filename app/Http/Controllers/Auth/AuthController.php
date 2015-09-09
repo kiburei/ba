@@ -26,7 +26,7 @@ class AuthController extends Controller
     /**
      * Create a new authentication controller instance.
      *
-     * @return void
+     * @return \App\Http\Controllers\Auth\AuthController
      */
     public function __construct()
     {

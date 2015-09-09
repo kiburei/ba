@@ -92,9 +92,9 @@ class InnovationRepository {
     }
 
     /**
-     * Searches an innovation by its name
+     * Searches all innovations by their names.
      */
-    public function search($query)
+    public function searchAll($query)
     {
         return Innovation::where('name', 'LIKE', "%$query%")
             ->orderBy('created_at', 'desc')
@@ -107,7 +107,7 @@ class InnovationRepository {
      */
     public function getAll()
     {
-        return Innovation::orderBy('created_at', desc)
+        return Innovation::orderBy('created_at', 'desc')
             ->get();
     }
 
