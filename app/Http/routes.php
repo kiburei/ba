@@ -53,3 +53,19 @@ Route::get('logout', function()
 
     return view('auth.login');
 });
+
+//The search innovations section
+
+Route::get('innovations', function()
+{
+   $query = Request::get('q');
+
+   $repo = App::make('App\Repos\Innovation\InnovationRepository');
+
+   $innovations = $query
+
+       ? $repo->search($query)
+       : $repo->getAll();
+
+    return View('dashboards.innovator')->withInnovations($innovations);
+});

@@ -91,4 +91,24 @@ class InnovationRepository {
         Innovation::all()->latest();
     }
 
+    /**
+     * Searches an innovation by its name
+     */
+    public function search($query)
+    {
+        return Innovation::where('name', 'LIKE', "%$query%")
+            ->orderBy('created_at', 'desc')
+            ->get();
+    }
+
+    /**
+     * determines the format of searched innovations
+     * @return mixed
+     */
+    public function getAll()
+    {
+        return Innovation::orderBy('created_at', desc)
+            ->get();
+    }
+
 } 

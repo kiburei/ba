@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Innovation;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -16,7 +17,11 @@ class InnovationController extends Controller
      */
     public function index()
     {
-        //
+        $innovation = new Innovation;
+
+        $innovations = $innovation->get();
+
+        return view('dashboards.innovator', compact('innovations'));
     }
 
     /**
