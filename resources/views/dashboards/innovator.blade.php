@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <title>Homepage-Innovator</title>
 
-
+    <!-- CSS -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bitter:700,400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
@@ -13,8 +13,9 @@
 </head>
 
 <body>
+	
 	<div class="row">
-	        <div class="col-lg-9">
+	    <div class="col-lg-9">
 	            <div class="row">
 	                <div  class="title-pane">
 	                    <div class="pull-left">
@@ -26,7 +27,7 @@
 	                        </div></a> 
 	                    </div>
 	                </div> <!-- end title-pane -->
-	            </div>          
+	            </div>   <!-- end row -->       
 	        
 	            <div class="inovations-pane">
 	                <div class="row row-Innovation">
@@ -113,11 +114,10 @@
 	                </div> <!-- end row-innovation -->
 	                
 	            </div> <!-- end innovations-pane -->
-	        
 
-	</div> <!-- end col-lg-9 -->
+	    </div> <!-- end col-lg-9 -->
 
-	    <div class="col-lg-3">
+	   	<div class="col-lg-3">
 	    	
 	            <div class="advert well"></div>
 	            <hr />
@@ -144,13 +144,14 @@
 	    	
 	    </div> <!-- end col-lg-3 -->
 	    
-	</div>
+	</div> <!-- end row -->
 
-<!-- compiled and minified javascript -->
-<script src="{{ asset('/js/jquery.min.js') }}"></script>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+	<!-- compiled and minified javascript -->
+	<script src="{{ asset('/js/jquery.min.js') }}"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 
 </body>
 </html>
