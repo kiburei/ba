@@ -1,0 +1,142 @@
+
+
+.horizontal-dashboard {
+	text-align: center;
+	height: 100%;
+	border: 2px solid #eee;
+	padding: 15px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+.main{
+	font-family:  'Open sans', serif;
+	margin: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+
+/*  ---------------------
+		Media Queries 
+	--------------------- */
+
+/* -- Portrait & Landscape phone -- */
+@media (max-width: 480px) {
+	.title-pane{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+	.innovations-pane{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+	.funded-projects{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+	
+}
+
+/* -- Landscape phone to portrait tablet -- */
+@media (max-width: 768px) {
+	.title-pane{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+	.innovations-pane{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+	.funded-projects{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+	
+}
+
+/* -- Large desktop -- */
+ @media (max-width: 1200px) {
+ 	.title-pane{
+ 		height: ;
+		background: url('') top center no-repeat;
+	}
+	.innovations-pane{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+	.funded-projects{
+		height: ;
+		background: url('') top center no-repeat;
+	}
+}
+
+
+/*---------------
+	Navbar
+------------------*/
+.barnav{
+	font-family: 'Open Sans', serif;
+	margin-left: -15px;
+}
+
+#search-input{
+	width: 200px;
+}
+
+
+.title-pane{
+	
+	height: 120px;
+	border: 2px solid #eee;
+	padding: 15px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+.anchor:focus{
+	text-decoration: none;
+}
+.anchor:hover{
+	text-decoration: none;
+}
+.anchor{
+	text-decoration: none;
+}
+
+.kata{
+	margin-top: 0;
+}
+
+.row-Innovation p{
+	font-family: ;
+}
+
+.innovation-title{
+	
+	text-decoration: underline;
+}
+
+.funded{
+	border-bottom: #eee solid 2px;
+}
+
+.funded a {
+	text-decoration: none;
+}
+
+.advert{
+	
+	height: 200px;
+}
+.ww{
+	margin: auto;
+	text-align: center;
+}
+
+.major-selection{
+	margin: auto;
+	text-align: center;
+}
