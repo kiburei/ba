@@ -1,40 +1,29 @@
 @extends('layout')
 
-
-
 @section('content')
-    <div class="col-md-6 col-md-offset-3">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Login</h3>
-            </div>
-            <div class="panel-body">
-                <form method="POST" action="/login" class="form-group">
-                    {!! csrf_field() !!}
+	<form method="POST" action="/login" class="form-signin">
+		<h3 class="form__heading">Login</h3>
+		{!! csrf_field() !!}
 
-                    <div class="form-group {{ $errors->has('email') ? 'has-error' : ''}}">
-                        Email
-                        <input type="email" name="email" value="{{ old('email') }}" class="form-control">
-                    </div>
-                    {!! $errors->first('email', '<span class="help-block">:message</span>' ) !!}
+		<div class="form_field {{ $errors->has('email') ? 'has-error' : ''}}">
+			<label for="email" class="sr-only">Email address</label>
+			<input type="email" name="email" value="{{ old('email') }}" class="form-control" placeholder="Email">
+		</div>
+		{!! $errors->first('email', '<span class="help-block">:message</span>' ) !!}
 
-                    <div class="form-group {{ $errors->has('password') ? 'has-error' : ''}}">
-                        Password
-                        <input type="password" name="password" id="password" class="form-control">
-                    </div>
-                    {!! $errors->first('password', '<span class="help-block">:message</span>' ) !!}
+		<div class="form_field {{ $errors->has('password') ? 'has-error' : ''}}">
+			<label for="password" class="sr-only">Password</label>
+			<input type="password" name="password" id="password" class="form-control" placeholder="password">
+		</div>
+		{!! $errors->first('password', '<span class="help-block">:message</span>' ) !!}
 
-                    <div>
-                        <input type="checkbox" name="remember"> Remember Me
-                    </div>
-                    </br>
-                    <div>
-                        <button type="submit">Login</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" value="remember"> Remember me
+			</label>
+		</div>
+		<button type="submit" class="cta cta_btn">Login</button>
+	</form>
 @stop
 
 
