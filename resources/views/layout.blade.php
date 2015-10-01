@@ -4,11 +4,7 @@
 		<title>Bongo Afrika</title>
 
 		<!-- Latest compiled and minified CSS -->
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Bitter:700,400,400italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('/css/bootstrap-theme.min.css') }}">
-		<link rel="stylesheet" href="//localhost/projects/ba_dev/ui/prototype/public/assets/css/dashboard.css">
+		<link rel="stylesheet" href="{{ asset('/css/dashboard.css') }}">
 
 
 	</head>
@@ -52,7 +48,7 @@
 
 		<!-- compiled and minified javascript -->
 		<script src="{{ asset('/js/jquery.min.js') }}"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
