@@ -2,1060 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80805fbf-d159-4aea-a243-04e7e4b4f4c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/font-awesome/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_1_settings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_1_settings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_2_tools.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_2_tools.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_3_generic.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_3_generic.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_4_base.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_4_base.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_5_objects.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_5_objects.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_6_components.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_6_components.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_7_theme.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_7_theme.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6422043ac9a6233e46b82176c964d0534694e394/_8_trumps.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/b1021e10a75b14fe5b71bbec483a56513ca96a69/_8_trumps.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9dba9b872564b17739ef997f24b68d3c860d2cce/_ads.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/e82d0944260741b4a59d0468892ad4b5cedad008/_ads.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_alerts.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_alerts.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_arrows.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_arrows.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_background-variant.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_badges.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_beautons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_beautons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_block-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_block-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_bootstrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_brand.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_brand.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_breadcrumb.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_breadcrumb.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_breadcrumbs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_button-groups.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_buttons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_buttons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_carousel.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_center-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_close.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_code.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_code.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_code.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/18c33b047bddd6675d24648d1162b11cf4b53720/_common.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/6f8d946e03700e3b452b50a2dcc49ba6c09735a0/_common.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_component-animations.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/d298a8c2a4da98faf9e48ad694e34b365dfa8ba4/_cta.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/fe4fc830b13b7e62243ac64b125fa5d2fe8405e3/_cta.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_debug.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_debug.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/1ed465143f8a919b62433cf7ef5adf5711edc882/_defaults.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/be2ff07ae64a008ddff342638226b78468793c9d/_defaults.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_dropdowns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_flexbox.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_flexbox.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_flyout.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_flyout.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/d298a8c2a4da98faf9e48ad694e34b365dfa8ba4/_forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/fe4fc830b13b7e62243ac64b125fa5d2fe8405e3/_forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_glyphicons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_gradients.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_greybox.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_greybox.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_grid-framework.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/d298a8c2a4da98faf9e48ad694e34b365dfa8ba4/_grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/fe4fc830b13b7e62243ac64b125fa5d2fe8405e3/_grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_grids.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_grids.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/44512bd7f9eeb53487a6ab2b17f13b699365d362/_headings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_headings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_headings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/e8512581b1e5db5e640c9cde883efd9b49c3bf7b/_headings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_helper.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_helper.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_hide-text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_icon-text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_icon-text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_image.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_images.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_images.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9dba9b872564b17739ef997f24b68d3c860d2cce/_innovation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/e82d0944260741b4a59d0468892ad4b5cedad008/_innovation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_input-groups.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/1ed465143f8a919b62433cf7ef5adf5711edc882/_inuit.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/be2ff07ae64a008ddff342638226b78468793c9d/_inuit.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/7f27e981d77f3ad8fbf51d4a6697f9477bf6c903/_ionicons-font.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/a98227000968d72f355d71a4534add5dd8a15859/_ionicons-font.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/7f27e981d77f3ad8fbf51d4a6697f9477bf6c903/_ionicons-icons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/a98227000968d72f355d71a4534add5dd8a15859/_ionicons-icons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/7f27e981d77f3ad8fbf51d4a6697f9477bf6c903/_ionicons-variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/a98227000968d72f355d71a4534add5dd8a15859/_ionicons-variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_island.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_island.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_jumbotron.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_labels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_labels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_link-complex.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_link-complex.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_list-group.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_list-group.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_lists.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_lists.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_lozenges.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_lozenges.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_marginalia.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_marginalia.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_matrix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_matrix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_media.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_media.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_media.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/44512bd7f9eeb53487a6ab2b17f13b699365d362/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/e8512581b1e5db5e640c9cde883efd9b49c3bf7b/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_modals.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_nav-divider.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_nav-vertical-align.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_nav.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_nav.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_navbar.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9dba9b872564b17739ef997f24b68d3c860d2cce/_navigation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/d298a8c2a4da98faf9e48ad694e34b365dfa8ba4/_navigation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/e82d0944260741b4a59d0468892ad4b5cedad008/_navigation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/fe4fc830b13b7e62243ac64b125fa5d2fe8405e3/_navigation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_navs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_normalize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_normalize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_normalize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_opacity.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_options.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_options.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_pager.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_pagination.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_pagination.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_pagination.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_pagination.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_panels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_panels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/44512bd7f9eeb53487a6ab2b17f13b699365d362/_paragraphs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_paragraphs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_paragraphs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/e8512581b1e5db5e640c9cde883efd9b49c3bf7b/_paragraphs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_popovers.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_progress-bar.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_progress-bars.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_pull.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_pull.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_push.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_push.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_quotes.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_quotes.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_reset-filter.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_reset-text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_resize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_responsive-embed.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_responsive-utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_responsive-visibility.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_rules.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_rules.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_scaffolding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/d298a8c2a4da98faf9e48ad694e34b365dfa8ba4/_sections.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/fe4fc830b13b7e62243ac64b125fa5d2fe8405e3/_sections.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_shared.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_shared.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_smallprint.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_smallprint.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_solved-by-flexbox" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_split.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_split.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_sprite.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_sprite.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_stats.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_stats.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_tab-focus.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_table-row.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/655f0e793bbf4a49aa640810a6567d83785758f8/_tables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_tables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/8f313ba213b916726a0c423accaa9ce43f00d563/_tables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_text-emphasis.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_text-overflow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/63cde26d592b6e9f05269cbda23c16f6c3b5276d/_this-or-this.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/f7a6ceed38e94314a7efac53af4cba7ab146b851/_this-or-this.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_thumbnails.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_tooltip.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_type.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/07aa38ebcf3ea8f549c2423f5d43c65d97871e7e/_vars.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/22a2ba365f3bb99f4844d2da408d684f4cb06fe7/_vars.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/397f55cb4f19597e76df72394ef7c7c9dfd6fc79/_vendor-prefixes.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/79add19ccf4285be0ab0bea371a0e9737c259968/_wells.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/489c3df87b473f4fa3928a37dd8a47eb4373f463/_widths.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/9da5f6fc01680fa9a1e9d83d8b4da4c622290415/_widths.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/about.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news/awareness-week-2015/aw9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/bgd-opacite-menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/covers/cover-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/covers/cover-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/covers/cover-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/covers/cover-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/covers/cover-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/covers/cover-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/07aa38ebcf3ea8f549c2423f5d43c65d97871e7e/dashboard.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/22a2ba365f3bb99f4844d2da408d684f4cb06fe7/dashboard.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/emsb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/font-awesome/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/font-awesome/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/font-awesome/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/investor/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/login/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/ionicons/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/7f27e981d77f3ad8fbf51d4a6697f9477bf6c903/ionicons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/a98227000968d72f355d71a4534add5dd8a15859/ionicons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/ionicons/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/ionicons/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logos/logo__main@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/logos/logo__main@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logos/magnet.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/logos/magnet.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/map.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/news.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/office.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/demo/range.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/login/reset.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/demo/sassaparillav2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/signup-step-1of5.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/signup-step-2of5.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/signup-step-3of5.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/signup-step-4of5.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/signup-step-5of5.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/signup-step-complete.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/signup-step-progress.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/bc89785c0230cb102b574e5d230ccc6845033b81/slick-theme.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/fc7b30969ccb891aa2745171379fc6a4a3da1830/slick-theme.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/slick/slick.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/slick/slick.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/bc89785c0230cb102b574e5d230ccc6845033b81/slick.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/.sass-cache/fc7b30969ccb891aa2745171379fc6a4a3da1830/slick.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/slick/slick.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/slick/slick.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/slick/slick.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/slick/slick.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/team.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/the-team-old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/images/the-team.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-mixins/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-page/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/404.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/404.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-box-sizing/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-defaults/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-functions/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-mixins/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-normalize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-page/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_1_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_1_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_2_tools.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_2_tools.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_3_generic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_3_generic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_4_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_4_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_5_objects.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_5_objects.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_6_components.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_6_components.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_7_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_7_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/_8_trumps.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/_8_trumps.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/components/_ads.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/components/_ads.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/tables/_alternating-rows-and-columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_animate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/_animate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_appearance.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_appearance.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_arrows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_arrows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_arrows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/settings/_asset-pipeline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_assign-inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_attention-seekers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_backface-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_background-clip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_background-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_background-origin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_background-size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_badges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_badges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-page/_base.page.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/sprites/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_beautons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_beautons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_beautons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_block-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_block-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_block-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_bootstrap-compass.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_bootstrap-compass.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_bootstrap-mincer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_bootstrap-mincer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_bootstrap-sprockets.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_bootstrap-sprockets.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_bootstrap-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_bootstrap-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_border-color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_border-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_border-style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_border-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/tables/_borders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/bouncing/_bouncing-entrances.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/bouncing/_bouncing-exits.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_bouncing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/_bourbon-deprecated-upcoming.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_bourbon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_box-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_box-sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_brand.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_brand.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_brand.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/lists/_bullets.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/lists/_bullets.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_button-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_button-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/objects/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_calc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/components/_categories.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/components/_categories.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/components/_categories.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_center-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_center-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_classes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/general/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/functions/_colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/generic/_common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/generic/_common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/base/_common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/components/_common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/objects/_common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_compass.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_component-animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_component-animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/_components.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/functions/_constants.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_contains-falsy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_contains.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/components/_content-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/color/_contrast.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_convert-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/functions/_cross_browser_support.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_css3.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/objects/_cta.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/objects/_cta.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/innovations/_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/innovator/_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/investor/_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/login/_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/signup/_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_debug.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_debug.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_debug.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/_defaults.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/_defaults.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/_defaults.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_directional-values.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/functions/_display.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_dropdowns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_dropdowns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_ellipsis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/text/_ellipsis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/text/_ellipsis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/fading/_fading-entrances.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/fading/_fading-exits.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_fading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_flex-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_flexbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_flexbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_flexbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_flexbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_flippers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/general/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_flyout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_flyout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_flyout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_font-face.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_font-face.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_font-feature-settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_font-source-declaration.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_font-stacks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/text/_force-wrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/objects/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/objects/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/objects/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/functions/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_general.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-box-sizing/_generic.box-sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-normalize/_generic.normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_glyphicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_glyphicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_gradient-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/functions/_gradient_support.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_greybox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_greybox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_greybox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/layout/_grid-background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/objects/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/objects/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/generic/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/add-ons/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_grids.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_grids.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_grids.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/general/_hacks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/base/_headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/base/_headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/base/_headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_helper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_helper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_helper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_hidpi-media-query.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/lists/_horizontal-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/lists/_horizontal-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/links/_hover-link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/links/_hover-link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_hyphenation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_hyphens.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_icon-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_icon-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_icon-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_image-rendering.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/lists/_inline-block-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/lists/_inline-block-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_inline-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/lists/_inline-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/lists/_inline-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/components/_innovation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/components/_innovation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_input-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_input-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/_inuit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/_inuit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/_inuit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_is-length.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_is-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_is-number.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_is-size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_island.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_island.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_island.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_keyframes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_lemonade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_lightspeed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_linear-angle-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_linear-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_linear-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_linear-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_linear-side-corner-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/links/_link-colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/links/_link-colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_link-complex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_link-complex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_link-complex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/_links.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_links.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/functions/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_lozenges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_lozenges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_lozenges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_margin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_marginalia.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_marginalia.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_marginalia.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_matrix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_matrix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_matrix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/components/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/general/_min.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/base/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/base/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/base/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/objects/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_modals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_modals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_modular-scale.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/add-ons/_module-typeset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_nav-vertical-align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_nav-vertical-align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/components/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/components/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/objects/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/components/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/objects/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/components/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/objects/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/modules/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/objects/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_navs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_navs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/text/_nowrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/text/_nowrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_opacity.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_opacity.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_opacity.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_options.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_options.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_options.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_padding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_pager.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_pager.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/components/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/base/_paragraphs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_paragraphs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/base/_paragraphs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_paragraphs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/base/_paragraphs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_paragraphs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_perspective.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_pie.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_placeholder.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_placeholders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_popovers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_popovers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/settings/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_progress-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_progress-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_progress-bars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_progress-bars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_pull.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_pull.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_pull.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_push.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_push.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_push.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/settings/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_px-to-rem.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_quotes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_quotes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_quotes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_radial-arg-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_radial-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_radial-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_radial-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_regions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_render-gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/text/_replacement.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/text/_replacement.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_required.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_reset-filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_reset-filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_reset-legacy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/general/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_responsive-embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_responsive-embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_responsive-utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_responsive-utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_responsive-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_responsive-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_retina-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/rotating/_rotating-entrances.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/rotating/_rotating-exits.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_rotating.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_rules.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_rules.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_rules.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/tables/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/objects/_sections.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/objects/_sections.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_selection.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-defaults/_settings.defaults.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_shade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_shape-size-stripper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/generic/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/components/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/objects/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_dashboard/components/_slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_dashboard/components/_slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ui/components/_slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/components/_slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_smallprint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_smallprint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_smallprint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/animation/animate/_specials.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_spinning.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_split.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_split.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_split.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/sprites/_sprite-img.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_sprite.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_sprite.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_sprite.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_sprites.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_stats.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_stats.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_stats.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/layout/_sticky-footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/helpers/_str-to-num.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/layout/_stretching.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_strip-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_support.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_tab-focus.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_tab-focus.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/base/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/base/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/base/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/general/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/general/_tag-cloud.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_text-decoration.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_text-inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_text-overflow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_text-overflow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_text-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/objects/_this-or-this.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/objects/_this-or-this.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/objects/_this-or-this.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_thumbnails.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_thumbnails.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_timing-functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_tint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-functions/_tools.functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-mixins/_tools.mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_transform-legacy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_transform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_transform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_transition-property-name.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_triangle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/_trumps.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/objects/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/functions/_unpack.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/links/_unstyled-link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/utilities/links/_unstyled-link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/css3/_user-interface.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/css3/_user-select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/reset/_utilities-legacy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/reset/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/mixins/_vendor-prefixes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/mixins/_vendor-prefixes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/compass/typography/_vertical_rhythm.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_bootstrap/_wells.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bootstrap/_wells.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/generic/_widths.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/generic/_widths.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/generic/_widths.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/addons/_word-wrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/app.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/basket.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-box-sizing/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-defaults/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-functions/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-mixins/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-normalize/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-page/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_inuit.css/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/inuit.css/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/bsk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/bsk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/css_dir" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/dashboard.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/dashboard.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/dashboard.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/dashboard.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/demo/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/demo/demo.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/eyeglass-exports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/font-awesome/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/font-awesome/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/_shared/footer.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logos/fsc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/logos/fsc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home/funded.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/innovations/funded.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/handcrafted.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/harp.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/_shared/header.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/innovator/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home/innovation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/innovations/innovation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home/investor.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_ionicons/ionicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ionicons/ionicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/ionicons/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logos/iso.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/logos/iso.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/jquery-1.11.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/jquery-scrolltofixed.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/jquery.nicescroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.nicescroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/jquery.nicescroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/js.cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/innovator/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs/modernizr-custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/libs/modernizr-custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/modernizr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/dashboards/more-innovation-info.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/_shared/nav.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home/open.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/innovations/open.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-box-sizing/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-defaults/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-functions/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-mixins/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-normalize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_inuit.css/node_modules/inuit-starter-kit/node_modules/inuit-page/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/libs/bourbon/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/dashboards/post-innovation-funding.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/dashboards/post-innovation.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/js/script.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_slick/slick-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_slick/slick-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_slick/slick-theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_slick/slick-theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/themes/bsk/components/slick-theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_slick/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_slick/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/slick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/_slick/slick.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/_slick/slick.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/slick/slick.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/fonts/slick/slick.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/smoothPageScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/js/smoothPageScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/vs_bg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/vs_bg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/watch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/css/watch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/skoolspace/assets/css/watch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logos/wwf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/prototype/public/assets/img/logos/wwf.svg" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\bitbucket\ba_dev\public\js\npm.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/dashboards/innovator.blade.php" afterPath="$PROJECT_DIR$/resources/views/dashboards/innovator.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/dashboards/investor.blade.php" afterPath="$PROJECT_DIR$/resources/views/dashboards/investor.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Projects\bitbucket\ba_dev\public\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="E:\Projects\bitbucket\ba_dev\public\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="E:\Projects\bitbucket\ba_dev\public\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="E:\Projects\bitbucket\ba_dev\public\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="E:\Projects\bitbucket\ba_dev\public\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
     </list>
     <ignored path="ba_dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1077,51 +25,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5672727">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="e#6#391#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InnovationController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InnovationController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.384615">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/session.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/innovation/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-58.192307">
-              <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <file leaf-file-name="innovator.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/home/innovator.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46363637">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <file leaf-file-name="innovator.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/partials/dashboards/innovator.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.576923">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state vertical-scroll-proportion="3.6923077">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <file leaf-file-name="open.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/partials/innovations/open.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.23077">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="innovation.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/partials/innovations/innovation.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.73077">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1140,20 +120,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/home/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home/investor.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboards/post-innovation.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/innovation.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/open.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/funded.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
         <option value="$PROJECT_DIR$/config/session.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/storage/framework/sessions/2fbad9490fda66bb8d8f6af933e76abb53874e8f" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/resources/views/home/innovator.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home/investor.blade.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/InnovationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/home/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/innovation/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/innovations/open.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -1256,6 +245,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="innovations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1278,7 +271,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1300,29 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dashboards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ba_dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ba_dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
+              <option name="myItemId" value="innovation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1350,7 +321,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1364,25 +335,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ba_dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ba_dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1396,25 +353,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ba_dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ba_dev" />
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1428,7 +375,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="verify&#9;null&#9;null&#10;in&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Innovator.php&#10;user&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/User.php&#10;guard&#9;null&#9;null&#10;register&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/resources/views/auth/register.blade.php&#10;login&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/resources/views/auth/login.blade.php&#10;chat&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Chat.php&#10;Aut&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Http/Controllers/Auth/AuthController.php&#10;inn&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Repos/Innovation/InnovationRepository.php" />
+    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Http/routes.php&#10;user&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/User.php&#10;gUAR&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/vendor/laravel/framework/src/Illuminate/Auth/Guard.php&#10;verify&#9;null&#9;null&#10;in&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Innovator.php&#10;guard&#9;null&#9;null&#10;register&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/resources/views/auth/register.blade.php&#10;login&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/resources/views/auth/login.blade.php&#10;chat&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Chat.php&#10;Aut&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Http/Controllers/Auth/AuthController.php&#10;inn&#9;FILE&#9;file://E:/Projects/bitbucket/ba_dev/app/Repos/Innovation/InnovationRepository.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1438,11 +385,11 @@
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\bitbucket\ba_dev\resources\views\partials" />
       <recent name="E:\Projects\bitbucket\ba_dev\app\Repos\Conversation" />
       <recent name="E:\Projects\bitbucket\ba_dev\resources\views" />
       <recent name="E:\Projects\bitbucket\ba_dev\resources\views\ba" />
       <recent name="E:\Projects\bitbucket\ba_dev\app\Repos" />
-      <recent name="E:\Projects\bitbucket\ba_dev\app\Http" />
     </key>
   </component>
   <component name="RunManager">
@@ -1528,62 +475,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/passwords.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/pagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/broadcasting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.26923">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Events/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Jobs/Job.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16811594">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.192308">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.44836956">
@@ -1623,6 +514,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.423077">
           <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,37 +540,13 @@
         <state vertical-scroll-proportion="-2.6153846">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#41#54#0#PHP" expanded="true" />
+            <element signature="e#41#54#0#PHP" expanded="false" />
             <element signature="e#112#330#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboards/innovator.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/investor.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboards/more-innovation-info.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/dashboards/more-innovation-info.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1686,7 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboards/post-innovation-funding.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/dashboards/post-innovation-funding.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1694,7 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboards/post-innovation.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/dashboards/post-innovation.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24727273">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
@@ -1702,31 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/innovation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/innovations/innovation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24727273">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboards/investor.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.153846">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/innovations/funded.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/innovations/funded.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1750,47 +594,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/innovations/open.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.961538">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="e#40#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Guard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.49091">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#391#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1818,90 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8309091">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_10_115629_create_innovators_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_07_151740_create_innovations_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55636364">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18545455">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272728">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18545455">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03272727">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6127273">
-          <caret line="51" column="78" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-58.192307">
-          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.576923">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1922,11 +650,229 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/sessions/d0909e8eda31ac25f9039da76186e9fa410d79f1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/sessions/2fbad9490fda66bb8d8f6af933e76abb53874e8f">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Guard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="54.26923">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46363637">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.18545455">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.750909">
+          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_10_115629_create_innovators_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.615385">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3709091">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/investor.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09272727">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/dashboards/investor.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1538463">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7692308">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4018182">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64181817">
+          <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/innovations/innovation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.73077">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InnovationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.384615">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleBaseClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3709091">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/innovation/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/innovator.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/dashboards/innovator.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6923077">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/innovations/open.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5672727">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#391#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

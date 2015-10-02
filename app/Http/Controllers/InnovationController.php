@@ -53,7 +53,7 @@ class InnovationController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('innovation.show');
     }
 
     /**
@@ -89,5 +89,14 @@ class InnovationController extends Controller
     {
         //
     }
-    
+
+    /**
+     * Gets all the open innovations
+     *
+     * @return \Illuminate\View\View
+     */
+    public function open()
+    {
+        return view('home.open');
+    }
 }

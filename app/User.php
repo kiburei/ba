@@ -57,4 +57,27 @@ class User extends Model implements AuthenticatableContract,
     {
         return $this->hasOne('App\Innovator');
     }
+
+    /**
+     * Checks if the user is an investor
+     *
+     * @return bool
+     */
+    public function isInvestor()
+    {
+        if($this->userCategory == 2)
+            return true;
+
+        return false;
+    }
+
+    /**
+     * Checks if the user is an innovator.
+     *
+     * @return bool
+     */
+    public function isInnovator()
+    {
+        return !$this->investor();
+    }
 }

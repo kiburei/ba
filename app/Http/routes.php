@@ -10,18 +10,22 @@
 |
 */
 
-
-get('test', function(){
-   return view('home.investor');
-});
-
-
 Route::group(['middleware' => 'auth'], function() {
-
-    get('/', function () {
-        return view('home.index');
-    });
-
+    /*
+     * Home routes
+     */
+    get('/', [
+        'as' => 'home', 'uses' => 'DashboardController@home'
+    ]);
+    get('/home', [
+        'as' => 'home', 'uses' => 'DashboardController@home'
+    ]);
+    /*
+     *Logout Route(s)
+     */
+    get('logout',[
+        'as' => 'logout', 'uses' =>   'Auth\AuthController@getLogout'
+    ]);
     /*
      * Routes for the innovations
      */
@@ -45,7 +49,10 @@ Route::group(['middleware' => 'auth'], function() {
             'as' => 'updateInnovation', 'uses' => 'InnovationController@update'
         ]);
 
-    get('innovations', function()
+    /*
+     * Route for searching innovations
+     */
+    get('innovations/search', function()
     {
         $query = Request::get('q');
 
@@ -60,6 +67,14 @@ Route::group(['middleware' => 'auth'], function() {
     });
 
     /*
+     * Gets the open innovations
+     */
+
+    get('/innovations/open', function(){
+        return view('home.open');
+    });
+
+    /*
      * Routes for the Comments
      */
 
@@ -67,25 +82,15 @@ Route::group(['middleware' => 'auth'], function() {
             'as' => 'storeComment', 'uses' => 'CommentController@store'
         ]);
 
-    //Dashboard retrieval routes
-    get('dashboard/innovator', [
-            'as' => 'innovatorDashboard', 'uses' => 'DashboardController@innovator'
-        ]);
-
-    get('dashboard/investor', [
-            'as' => 'investorDashboard', 'uses' => 'DashboardController@investor'
-        ]);
-    //Logout Route(s)
-    get('logout',[
-        'as' => 'logout', 'uses' =>   'Auth\AuthController@getLogout'
-    ]);
 
 });
 
 
 Route::group(['middleware' => 'guest'], function() {
 
-    // Login routes
+    /*
+     * Login routes
+     */
     get('login', [
         'as' => 'login', 'uses' => 'Auth\AuthController@getLogin'
     ]);
@@ -93,7 +98,9 @@ Route::group(['middleware' => 'guest'], function() {
         'as' => 'login', 'uses' => 'Auth\AuthController@postLogin'
     ]);
 
-// Registration routes...
+    /*
+     * Registration routes
+     */
     get('register', [
         'as' => 'register', 'uses' => 'Auth\AuthController@getRegister'
     ]);
