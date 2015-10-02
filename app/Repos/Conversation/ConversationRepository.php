@@ -1,9 +1,9 @@
-<?php namespace App\Repos\Comments;
+<?php namespace App\Repos\Conversation;
 
 use App\Chat;
 use App\Innovation;
 
-class CommentRepository {
+class ConversationRepository {
 
     public function startConversation($investor, $innovation)
     {

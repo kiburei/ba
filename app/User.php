@@ -36,4 +36,25 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+
+    /**
+     * Retrieves the investor details for the user, if he/she is an investor.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function investor()
+    {
+        return $this->hasOne('App\Investor');
+    }
+
+    /**
+     * Retrieves the innovator details for the user, if he/she is an innovator.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function innovator()
+    {
+        return $this->hasOne('App\Innovator');
+    }
 }

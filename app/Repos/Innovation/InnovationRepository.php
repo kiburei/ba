@@ -1,6 +1,7 @@
 <?php namespace App\Repos\Innovation;
 
 
+use App\Category;
 use App\Innovation;
 use App\User;
 
@@ -93,14 +94,29 @@ class InnovationRepository {
 
     /**
      * Searches all innovations by their names.
+     *
+     * @param $query
+     * @return mixed
      */
     public function searchAll($query)
     {
         return Innovation::where('name', 'LIKE', "%$query%")
-            ->orderBy('created_at', 'desc')
+            ->latest()
             ->get();
     }
 
+    /**
+     * Returns filtered results of a certain group.
+     *
+     * @param Category $category
+     * @return mixed
+     */
+    public function innovationOfCategory(Category $category)
+    {
+        return Innovation::where('category', $category->id)
+            ->latest()
+            ->get();
+    }
     /**
      * determines the format of searched innovations
      * @return mixed

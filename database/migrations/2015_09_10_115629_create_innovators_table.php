@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInnovationsTable extends Migration
+class CreateInnovatorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,8 @@ class CreateInnovationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('innovations', function (Blueprint $table) {
+        Schema::create('innovators', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->text('description');
-            $table->integer('investors');
-            $table->integer('amount');
-            $table->integer('category_id');
-            $table->integer('user_id');
             $table->timestamps();
         });
     }
@@ -31,6 +25,6 @@ class CreateInnovationsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('innovations');
+        Schema::drop('innovators');
     }
 }
