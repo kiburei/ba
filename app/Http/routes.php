@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -12,6 +11,9 @@
 */
 
 
+get('test', function(){
+   return view('home.investor');
+});
 
 
 Route::group(['middleware' => 'auth'], function() {

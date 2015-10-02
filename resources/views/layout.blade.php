@@ -1,61 +1,61 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Bongo Afrika</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="csrf-token" content="{{ csrf_token() }}">
+		<title>Bongo Afrika</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
-
-
-</head>
-<body>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="{{ asset('/css/dashboard.css') }}">
 
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Bongo Afrika</a>
-    </div>
+	</head>
+	<body>
+		<div class="container-fluid" id="main">
+			<div class="navbar navbar-default global-navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Bongo afrika</a>
+				</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="navbar-collapse collapse navbar-responsive-collapse" id="navbar-main">
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active"><a href="{{ url('/') }}">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Open Innovations</a></li>
+						<li><a href="">Funded Innovations</a></li>
+						<li><a href="">Post an Innovation</a></li>
+					</ul>
 
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-      @if(\Auth::user())
-        <li><a href="{{ url('/logout') }}">Logout</a></li>
-        <li><a><b>Signed in as {{ \Auth::user()->name }}</b></a></li>
-      @else
-        <li><a href="{{ url('/login') }}">Login</a></li>
-        <li><a href="{{ url('/register') }}">Register</a></li>
-      @endif
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+					<ul class="nav navbar-nav navbar-right">
+					@if(\Auth::user())
+					<li><a href="{{ url('/logout') }}">Logout</a></li>
+					<li><a><b>Signed in as {{ \Auth::user()->name }}</b></a></li>
+					@else
+					<li><a href="{{ url('/login') }}">Login</a></li>
+					<li><a href="{{ url('/register') }}">Register</a></li>
+					@endif
+					</ul>
+				</div> <!-- end nav-collapse -->
+			</div> <!-- end navbar -->
 
-<div class="container">
-    @yield('content')
-</div>
+			@yield('content')
+		</div> <!-- end container main-->
+
+		<!-- compiled and minified javascript -->
+		<script src="{{ asset('/js/jquery.min.js') }}"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+		<script src="{{ asset('/js/dashboard.js') }}"></script>
+        @yield('script')
 
 
-<!-- compiled and minified javascript -->
-<script src="{{ asset('/js/jquery.min.js') }}"></script>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-
-</body>
+	</body>
 </html>

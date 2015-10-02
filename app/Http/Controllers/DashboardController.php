@@ -35,7 +35,7 @@ class DashboardController extends Controller
      */
     public function innovator()
     {
-        //
+        return view('home.index');
     }
 
     /**
