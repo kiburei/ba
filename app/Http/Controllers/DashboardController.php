@@ -27,6 +27,19 @@ class DashboardController extends Controller
         $this->innovationRepository = $innovationRepository;
     }
 
+    /**
+     * Selects what page the user sees as their homepage.
+     *
+     * @return Response
+     */
+
+    public function home()
+    {
+        if(\Auth::user()->isInvestor()){
+            return $this->investor();
+        }
+        return $this->innovator();
+    }
 
     /**
      * Display the innovator dashboard for innovators.
@@ -35,7 +48,7 @@ class DashboardController extends Controller
      */
     public function innovator()
     {
-        return view('home.index');
+        return view('home.innovator');
     }
 
     /**
@@ -45,7 +58,7 @@ class DashboardController extends Controller
      */
     public function investor()
     {
-        //
+        return view('home.investor');
     }
 
 }

@@ -26,10 +26,10 @@
 	</div>
 
 	<div class="col-lg-9">
-		@include('innovations.open')
+		@include('partials.innovations.open')
 	</div>
 
 	<aside class="col-lg-3">
-		@include('innovations.funded')
+		@include('partials.innovations.funded')
 	</aside>
 </div>

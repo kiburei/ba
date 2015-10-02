@@ -27,9 +27,15 @@
 					<ul class="nav navbar-nav navbar-left">
 						<li class="active"><a href="{{ url('/') }}">Home</a></li>
 						<li><a href="">About</a></li>
-						<li><a href="">Open Innovations</a></li>
-						<li><a href="">Funded Innovations</a></li>
-						<li><a href="">Post an Innovation</a></li>
+
+                        @if(!\Auth::guest())
+                            @if(\Auth::user()->isInvestor())
+                                <li><a href="{{ url('/innovations/open') }}">Open Innovations</a></li>
+                                <li><a href="">Funded Innovations</a></li>
+                            @else
+                                <li><a href="">Post an Innovation</a></li>
+                            @endif
+                        @endif
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">

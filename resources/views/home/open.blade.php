@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-    @include('innovations.open')
+    @include('partials.innovations.open')
 @stop
