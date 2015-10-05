@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	setTimeout(function(){
+		$('.msg__box').fadeOut();
+	}, 2000);
+
 	// init Isotope
 	var $grid = $('.innoList').isotope({
 		itemSelector: '.inno',
@@ -34,5 +38,18 @@ $(document).ready(function(){
 			$buttonGroup.find('.current').removeClass('current');
 			$( this ).addClass('current');
 		});
+	});
+
+	$('.innoNew').find('.cta__create').click(function(){
+		$(this).fadeOut();
+		$('.step__2').slideDown();
+	});
+	$('.innoNew').find('.cta__next').click(function(){
+		$('.step__2').slideUp();
+		$('.step__3').slideDown();
+	});
+	$('.innoNew').find('.cta__publish').click(function(){
+		$('.step__3').slideUp();
+		$('.step__feedback').slideDown();
 	});
 });
