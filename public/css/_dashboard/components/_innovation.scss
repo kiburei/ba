@@ -133,39 +133,89 @@
 .innoNew {
 	background-color: #fff;
 	box-shadow: 0 0 1px rgba(136,136,153,.25);
-	padding: $padding-reset;
 	margin-bottom: $gutter;
-	display: flex;
-	justify-content: space-between;
+
+	.inno-summary, .inno-title, .inno-category {
+		outline: none;
+		resize: none;
+		overflow: auto;
+		opacity: .5;
+		border: none;
+		padding: $padding-reset;
+	}
+
+	.inno-title {
+		font-size: 18px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 	
-	.cta {
-		margin-top: 0;
-		margin-bottom: 0;
+	.inno-summary {
+		width: 100%;
+		font-size: inherit;
+	}
+
+	.inno-category {
+		background-color: transparent;
+		border: none;
+		margin-left: $gutter;
+		padding: 0;
+	}
+
+	.innoDetails__header {
+		display: flex;
+		justify-content: space-between;
+		padding: $padding-reset;
 		
-		&.cta__create {
-			margin-left: $padding-reset;
-			background-color: $brand-color;
-			color: #fff;
-			
-			&:hover {
-				background-color: darken($brand-color,50%);
-			}
-		}
-		&.cta__attach {
-			margin-left: $padding-reset;
-		}
-		&.cta__input {
+		.inno-title {
 			flex: 5 0 0;
-			font-size: 18px;
-			padding-left: 0;
-			outline: none;
 			opacity: .5;
 			
 			&:focus {
 				opacity: 1;
 			}
 		}
+
+		.cta {
+			&.cta__create {
+				margin-left: $padding-reset;
+				background-color: $brand-color;
+				color: #fff;
+
+				&:hover {
+					background-color: darken($brand-color,50%);
+				}
+			}
+		}
 	}
+	.innoDetails__content {
+		width: 100%;
+		padding: 0 $padding-reset;
+	}
+	.innoDetails__footer {
+		background: whitesmoke;
+		display: table;
+		padding: $gutter;
+		width: 100%;
+
+		.cta__next {
+			@extend .cta;
+			padding: 0;
+			background-color: transparent;
+		}
+	}
+}
+
+
+[class*="step__"] {
+	display: none;
+}
+
+.msg__box {
+	background: #A1D46F;
+	color: #fff;
+	padding: $padding-reset $gutter;
+	margin-bottom: $gutter;
 }
 
 .innoFilters {

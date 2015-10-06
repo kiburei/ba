@@ -40,8 +40,8 @@
 
 					<ul class="nav navbar-nav navbar-right">
 					@if(\Auth::user())
+					<li class="navbar-text">Signed in as {{ \Auth::user()->name }}</li>
 					<li><a href="{{ url('/logout') }}">Logout</a></li>
-					<li><a><b>Signed in as {{ \Auth::user()->name }}</b></a></li>
 					@else
 					<li><a href="{{ url('/login') }}">Login</a></li>
 					<li><a href="{{ url('/register') }}">Register</a></li>

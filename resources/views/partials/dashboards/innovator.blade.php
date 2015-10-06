@@ -1,7 +1,54 @@
 <div class="col-lg-12">   
+	<div class="step__feedback msg__box">
+		Project created successfully.
+	</div>
+
 	<form class="innoNew">
-		<input type="text" placeholder=" A new way to send money home" class="cta cta__input">
-		<button class="cta cta__btn cta__create">Create</button>
+		<header class="innoDetails__header">
+			<input type="text" placeholder=" A new way to send money home" class="inno-title">
+			<button type="button" class="cta cta__btn cta__create">Create</button>
+
+		</header>
+		<div class="step__2">
+			<section class="innoDetails__content">
+				<textarea class="inno-summary" rows="5" placeholder="Tell us about your something about that idea..."></textarea>
+			</section>
+			<footer class="innoDetails__footer">
+				<div class="pull-left">
+					Filed under
+					<select class="inno-category">
+						<option value="" disabled selected>Uncategorized</option>
+						<option value=".art">Art</option>
+						<option value=".crafts">Crafts</option>
+						<option value=".dance">Dance</option>
+						<option value=".design">Design</option>
+						<option value=".education">Education</option>
+						<option value=".fashion">Fashion</option>
+						<option value=".film">Film & Video</option>
+						<option value=".food">Food</option>
+						<option value=".games">Games</option>
+						<option value=".journalism">Journalism</option>
+						<option value=".music">Music</option>
+						<option value=".photography">Photography</option>
+						<option value=".technology">Technology</option>
+					</select>
+				</div>
+				<div class="pull-right">
+					<button type="button" class="cta cta__link cta__next">Step 3 of 3: Enter funding details</button>
+				</div>
+			</footer>
+		</div>
+
+		<div class="step__3">
+			<footer class="innoDetails__footer">
+				<div class="pull-left">
+					<input type="name" placeholder="Ksh. 1,000,000">
+				</div>
+				<div class="pull-right">
+					<button type="button" class="cta cta__btn cta__publish">Publish</button>
+				</div>
+			</footer>
+		</div>
 	</form>
 </div> <!-- end col-lg-9 -->
 
