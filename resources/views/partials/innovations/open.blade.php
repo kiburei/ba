@@ -3,40 +3,36 @@
 		<h2 class="section__title">Open Projects</h2>
 	</header>
 
+    @if($innovations->count())
+
 	<section class="innoList innoGrid">
-		@for($i=1; $i<=6; $i++)
-			<article class="inno education" data-category="education">
+
+        @foreach($innovations as $innovation)
+			<article class="inno {{$innovation->category->categoryName}}" data-category="education">
 				<header>
 					<h3 class="inno-title">
-						<a href="{{ url('/innovation/'.$i) }}">Creative name for the Innovation</a>
+						<a href="">{{ $innovation->innovationTitle }}</a>
 					</h3>
-					<p class="inno-innovator">Andrew Mwangi</p>
+					<p class="inno-innovator">{{ \Auth::user()->name }}</p>
 				</header>
 				<p class="inno-summary">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.
+					{{ $innovation->innovationDescription }}
 				</p>
 				<footer class="inno-meta">
-					<div class="inno-category">Education</div>
+
+                    <div class="inno-category">{{ $innovation->category->categoryName }}</div>
+
 					<div class="inno-likes">756</div>
 				</footer>
 			</article>
-			<article class="inno " data-category="Technology">
-				<header>
-					<h3 class="inno-title">
-						<a href="{{ url('/innovation/'.$i) }}">Creative name for the Innovation</a>
-					</h3>
-					<p class="inno-innovator">Andrew Mwangi</p>
-				</header>
-				<p class="inno-summary">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-				</p>
-				<footer class="inno-meta">
-					<div class="inno-category">Category</div>
-					<div class="inno-likes">756</div>
-				</footer>
-			</article>
-		@endfor
+
+        @endforeach
+
 	</section> <!-- end innoList -->
+
+    @else
+
+    <p class="alert-info"><h3>Mhhh!!..You have not submitted any innovations yet..try the above form..</h3><p>
+
+    @endif
 </div> <!-- end innovations-pane -->  

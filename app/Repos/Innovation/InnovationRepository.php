@@ -6,21 +6,59 @@ use App\Innovation;
 use App\User;
 
 
-class InnovationRepository {
+class InnovationRepository
+{
+    /**
+     * The innovation model
+     * @var
+     */
+    private $innovation;
+
+    /**
+     * The user model
+     * @var
+     */
+    private $user;
+
+    /**
+     * The category model
+     * @var
+     */
+    private $category;
+
 
 
     /**
-     * Creates a new innovation for a user
-     *
-     * @param array $details
-     * @param User $user
-     * @return \Illuminate\Database\Eloquent\Model
+     * @param Innovation $innovationModel
+     * @param User $userModel
+     * @param Category $categoryModel
      */
-    public function store(Array $details, User $user)
+
+    public function __construct(Innovation $innovationModel, User $userModel, Category $categoryModel)
     {
-        return $user->innovations()->create($details);
+        $this->innovation = $innovationModel;
+
+        $this->user = $userModel;
+
+        $this->category = $categoryModel;
     }
 
+
+    /**
+     * Commit an innovation for the auth user to the database
+     * @param $request
+     */
+    public function persist($request)
+    {
+        \Auth::user()->innovation()->create([
+
+            'innovationTitle'       => $request->innovationTitle,
+            'innovationDescription' => $request->innovationDescription,
+            'innovationFund'        => $request->innovationFund,
+            'category_id'            => $request->innovationCategory,
+
+        ]);
+    }
 
     /**
      * Updates an innovation
@@ -67,7 +105,7 @@ class InnovationRepository {
      */
     public function innovationsForUser(User $user)
     {
-        return $user->innovations()->get();
+        return $user->innovation()->with('category')->latest()->get();
     }
 
 

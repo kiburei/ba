@@ -4,64 +4,21 @@
 	</header>
 	
 	<section class="innoList">
-		<article class="inno education" data-category="education">
-			<header>
-				<h3 class="inno-title">
-					<a href="">Creative name for the Innovation</a>
-				</h3>
-			</header>
-			<footer class="inno-meta">
-				<div class="inno-category">Education</div>
-				<div class="inno-innovator">Andrew Mwangi</div>
-			</footer>
-		</article>
 
-		<article class="inno fashion" data-category="Fashion">
-			<header>
-				<h3 class="inno-title">
-					<a href="">Creative name for the Innovation</a>
-				</h3>
-			</header>
-			<footer class="inno-meta">
-				<div class="inno-category">Fashion</div>
-				<div class="inno-innovator">Andrew Mwangi</div>
-			</footer>
-		</article>
+        @foreach($innovations as $funded)
 
 		<article class="inno education" data-category="education">
 			<header>
 				<h3 class="inno-title">
-					<a href="">Creative name for the Innovation</a>
+					<a href="">{{ $funded->innovationTitle }}</a>
 				</h3>
 			</header>
 			<footer class="inno-meta">
-				<div class="inno-category">Education</div>
-				<div class="inno-innovator">Andrew Mwangi</div>
+				<div class="inno-category">{{ $funded->category->categoryName}}</div>
+				<div class="inno-innovator"></div>
 			</footer>
 		</article>
 
-		<article class="inno">
-			<header>
-				<h3 class="inno-title">
-					<a href="">Creative name for the Innovation</a>
-				</h3>
-			</header>
-			<footer class="inno-meta">
-				<div class="inno-category">Category</div>
-				<div class="inno-innovator">Andrew Mwangi</div>
-			</footer>
-		</article>
-
-		<article class="inno">
-			<header>
-				<h3 class="inno-title">
-					<a href="">Creative name for the Innovation</a>
-				</h3>
-			</header>
-			<footer class="inno-meta">
-				<div class="inno-category">Category</div>
-				<div class="inno-innovator">Andrew Mwangi</div>
-			</footer>
-		</article>
+        @endforeach
 	</section>
 </div>

@@ -3,28 +3,35 @@
 namespace App\Http\Controllers;
 
 use App\Repos\Innovation\InnovationRepository;
-use Illuminate\Http\Request;
-
+use App\Repos\Category\CategoryRepository;
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
+
 
 class DashboardController extends Controller
 {
     /**
-     * @var InnovationRepository
+     * This innovation repository
+     * @var \App\Repos\Innovation\InnovationRepository
      */
     private $innovationRepository;
 
+    /**
+     * This category repository
+     * @var \App\Repos\Category\CategoryRepository
+     */
+    private $categoryRepository;
+
 
     /**
-     * Initialize necessary properties for use in the Controller.
-     *
+     * Initializer constructor for this controller class
      * @param InnovationRepository $innovationRepository
+     * @param CategoryRepository $categoryRepository
      */
-
-    function __construct(InnovationRepository $innovationRepository)
+    function __construct(InnovationRepository $innovationRepository, CategoryRepository $categoryRepository)
     {
         $this->innovationRepository = $innovationRepository;
+
+        $this->categoryRepository = $categoryRepository;
     }
 
     /**
@@ -48,14 +55,17 @@ class DashboardController extends Controller
      */
     public function innovator()
     {
-        return view('home.innovator');
+        $innovations = $this->innovationRepository->innovationsForUser(\Auth::user());
+
+        $categories = $this->categoryRepository->getAllCategories();
+
+        return view('home.innovator', compact('innovations', 'categories', 'fundedProjects'));
     }
 
     /**
-     * Display the investor dashboard for investors.
-     *
-     * @return Response
+     * @return \Illuminate\View\View
      */
+
     public function investor()
     {
         return view('home.investor');

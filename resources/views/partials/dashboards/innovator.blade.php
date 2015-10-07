@@ -1,36 +1,68 @@
-<div class="col-lg-12">   
-	<div class="step__feedback msg__box">
-		Project created successfully.
-	</div>
 
-	<form class="innoNew">
+<!--Alert for successfully submitted innovation -->
+<div class="col-lg-12">
+
+    <div class="container">
+        @if(Session::has('flash_message'))
+
+        <div class="alert-message alert alert-success {{ Session::has('flash_message_important') ? 'alert-important' : '' }}">
+            @if(Session::has('flash_message_important'))
+
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+            @endif
+
+            {{ session('flash_message') }}
+
+        </div>
+
+        @endif
+    </div>
+
+    <!-- This div has been left out to avoid repetition -->
+    <!--<div class="step__feedback msg__box">
+		Project created successfully.
+	</div>-->
+
+    <!-- Alert for errors in innovation submission form -->
+    @if (count($errors) > 0)
+    <div class="alert alert-danger" role="alert" >
+        <h5>Oh snap! <b>Change a few things up</b> and try submitting again!</h5>
+    </div>
+    @endif
+
+	<form class="innoNew" action="{{ url('create/innovation') }}" method="post">
+
+        {!! csrf_field() !!}
 		<header class="innoDetails__header">
-			<input type="text" placeholder=" A new way to send money home" class="inno-title">
+			<input type="text" name="innovationTitle" placeholder="Your innovation title" class="inno-title">
 			<button type="button" class="cta cta__btn cta__create">Create</button>
 
 		</header>
 		<div class="step__2">
 			<section class="innoDetails__content">
-				<textarea class="inno-summary" rows="5" placeholder="Tell us about your something about that idea..."></textarea>
+				<textarea class="inno-summary" name="innovationDescription" rows="5" placeholder="Tell us about your something about that idea..."></textarea>
 			</section>
 			<footer class="innoDetails__footer">
 				<div class="pull-left">
 					Filed under
-					<select class="inno-category">
+					<select name="innovationCategory" class="inno-category">
+
 						<option value="" disabled selected>Uncategorized</option>
-						<option value=".art">Art</option>
-						<option value=".crafts">Crafts</option>
-						<option value=".dance">Dance</option>
-						<option value=".design">Design</option>
-						<option value=".education">Education</option>
-						<option value=".fashion">Fashion</option>
-						<option value=".film">Film & Video</option>
-						<option value=".food">Food</option>
-						<option value=".games">Games</option>
-						<option value=".journalism">Journalism</option>
-						<option value=".music">Music</option>
-						<option value=".photography">Photography</option>
-						<option value=".technology">Technology</option>
+
+                     @if($categories->count())
+
+                        @foreach($categories as $category)
+						<option value="{{ $category->id }}">{{ $category->categoryName }}</option>
+                        @endforeach
+
+                     @else
+
+                        <option value="" disabled selected>No listed categories here</option>
+
+                     @endif
+
+
 					</select>
 				</div>
 				<div class="pull-right">
@@ -42,10 +74,10 @@
 		<div class="step__3">
 			<footer class="innoDetails__footer">
 				<div class="pull-left">
-					<input type="name" placeholder="Ksh. 1,000,000">
+					<input type="name" name="innovationFund" placeholder="Ksh. 1,000,000">
 				</div>
 				<div class="pull-right">
-					<button type="button" class="cta cta__btn cta__publish">Publish</button>
+					<button type="submit" class="cta cta__btn cta__publish">Publish</button>
 				</div>
 			</footer>
 		</div>
@@ -80,3 +112,9 @@
 		@include('partials.innovations.funded')
 	</aside>
 </div>
+
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+
+<script>
+    $('div.alert-message').not('.alert-important').delay(2000).slideUp(300);
+</script>

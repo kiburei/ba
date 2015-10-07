@@ -80,7 +80,7 @@
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
                                     </p>
-                                    
+
                                     <input type="text" class="form-control" placeholder="Comments" style="
                                              width: 80%; display: inline-block;">
                                     <button type="submit" class="btn btn-default pull-right">Comment</button>
@@ -89,7 +89,7 @@
                             <hr />
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <h4>Conversations</h4>  
+                                    <h4>Conversations</h4>
                                 </div> <!-- end col-lg-3 -->
                                 <div class="col-lg-9">
                                     <h5><strong>Bob Collymore.</strong></h5>
@@ -97,14 +97,14 @@
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
-                                    </p><br /> 
+                                    </p><br />
                                     <h5><strong>Andrew Mwangia.</strong></h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
                                     </p>
-                                    
+
                                     <input type="text" class="form-control" placeholder="Reply"  style="
                                              width: 80%; display: inline-block;">
                                     <button type="submit" class="btn btn-default pull-right">Reply</button>
@@ -113,8 +113,8 @@
                                     <button type="button" class="btn btn-default btn-lg btn-block">
                                         Fund This Project
                                     </button>
-                                      
-                                     
+
+
                                 </div> <!-- end col-lg-9 -->
                             </div> <!-- end row -->
                             

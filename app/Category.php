@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+use Illuminate\Support\Facades\DB;
+
 class Category extends Model
 {
     /**
@@ -22,6 +24,6 @@ class Category extends Model
      */
     public function innovations()
     {
-        return $this->hasMany('App\Innovation');
+        return $this->belongsTo('App\Innovation');
     }
 }

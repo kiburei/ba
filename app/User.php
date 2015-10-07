@@ -80,4 +80,14 @@ class User extends Model implements AuthenticatableContract,
     {
         return !$this->investor();
     }
+
+    /**
+     * One to may user innovation relationship
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     *
+     */
+    public function innovation()
+    {
+        return $this->hasMany('\App\Innovation');
+    }
 }

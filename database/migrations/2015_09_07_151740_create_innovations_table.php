@@ -14,13 +14,14 @@ class CreateInnovationsTable extends Migration
     {
         Schema::create('innovations', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->text('description');
-            $table->integer('investors');
-            $table->integer('amount');
+            $table->string('innovationTitle');
+            $table->string('innovationDescription');
+            $table->integer('innovationFund');
             $table->integer('category_id');
             $table->integer('user_id');
+            $table->integer('fundingStatus')->default(0);
             $table->timestamps();
+
         });
     }
 

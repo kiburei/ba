@@ -53,8 +53,9 @@ Route::group(['middleware' => 'auth'], function() {
             'as' => 'deleteInnovation', 'uses' => 'InnovationController@destroy'
         ]);
 
-    post('/innovation/', [
-            'as' => 'createInnovation', 'uses' => 'InnovationController@store'
+
+    post('create/innovation/', [
+            'as' => 'createInnovation', 'uses' => 'InnovationsController@store'
         ]);
 
     post('/innovation/{id}/update', [
@@ -119,3 +120,4 @@ Route::group(['middleware' => 'guest'], function() {
     ]);
 
 });
+

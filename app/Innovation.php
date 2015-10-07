@@ -6,7 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Innovation extends Model
 {
-    protected $fillable = ['name', 'description', 'category_id', 'user_id'];
+
+    /**
+     * The fields that can be mass assigned
+     * @var array
+     */
+    protected $fillable = [
+
+        'innovationTitle',
+        'innovationDescription',
+        'innovationFund',
+        'category_id',
+        'user_id',
+        'fundingStatus'
+    ];
 
     /**
      * An innovation belongs to a category.
@@ -15,7 +28,7 @@ class Innovation extends Model
      */
     public function category()
     {
-        return $this->belongsTo('App\Category');
+        return $this->belongsTo('App\Category', 'category_id');
     }
 
     /**
