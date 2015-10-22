@@ -70,6 +70,7 @@ fi
 # ----------
 echo Downloading Composer
 curl -sS https://getcomposer.org/installer | php
+Add the below after the Deployment section
 
 
 ##################################################################################################################################
