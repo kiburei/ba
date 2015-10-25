@@ -175,18 +175,6 @@
 				opacity: 1;
 			}
 		}
-
-		.cta {
-			&.cta__create {
-				margin-left: $padding-reset;
-				background-color: $brand-color;
-				color: #fff;
-
-				&:hover {
-					background-color: darken($brand-color,50%);
-				}
-			}
-		}
 	}
 	.innoDetails__content {
 		width: 100%;
@@ -197,12 +185,6 @@
 		display: table;
 		padding: $gutter;
 		width: 100%;
-
-		.cta__next {
-			@extend .cta;
-			padding: 0;
-			background-color: transparent;
-		}
 	}
 }
 

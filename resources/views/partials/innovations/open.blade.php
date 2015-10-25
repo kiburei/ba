@@ -8,12 +8,12 @@
 	<section class="innoList innoGrid">
 
         @foreach($innovations as $innovation)
-			<article class="inno {{$innovation->category->categoryName}}" data-category="education">
+			<article class="inno {{$innovation->category->categoryName}}" data-category="{{ $innovation->category->id }}">
 				<header>
 					<h3 class="inno-title">
 						<a href="">{{ $innovation->innovationTitle }}</a>
 					</h3>
-					<p class="inno-innovator">{{ \Auth::user()->name }}</p>
+					<p class="inno-innovator">{{ $innovation->user_id }}</p>
 				</header>
 				<p class="inno-summary">
 					{{ $innovation->innovationDescription }}

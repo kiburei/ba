@@ -8,4 +8,14 @@
 			background-color: darken($dark-ui-color, .5);
 		}
 	}
+	
+	&.cta__create {
+		margin-left: $padding-reset;
+		background-color: $brand-color;
+		color: #fff;
+
+		&:hover {
+			background-color: darken($brand-color,50%);
+		}
+	}
 }
