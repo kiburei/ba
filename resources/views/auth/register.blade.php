@@ -2,7 +2,7 @@
 
 
 @section('content')
-	<form method="POST" action="{{ url('/register') }}" class="form-signin">
+	<form method="POST" action="{{ url('auth/register') }}" class="form-signin">
 
         {!! csrf_field() !!}
 

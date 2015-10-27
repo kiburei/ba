@@ -41,10 +41,10 @@
 					<ul class="nav navbar-nav navbar-right">
 					@if(\Auth::user())
 					<li class="navbar-text">Signed in as {{ \Auth::user()->name }}</li>
-					<li><a href="{{ url('/logout') }}">Logout</a></li>
+					<li><a href="{{ url('logout') }}">Logout</a></li>
 					@else
-					<li><a href="{{ url('/login') }}">Login</a></li>
-					<li><a href="{{ url('/register') }}">Register</a></li>
+					<li><a href="{{ url('auth/login') }}">Login</a></li>
+					<li><a href="{{ url('auth/register') }}">Register</a></li>
 					@endif
 					</ul>
 				</div> <!-- end nav-collapse -->

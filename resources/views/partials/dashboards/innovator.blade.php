@@ -28,6 +28,17 @@
     @if (count($errors) > 0)
     <div class="alert alert-danger" role="alert" >
         <h5>Oh snap! <b>Change a few things up</b> and try submitting again!</h5>
+
+        @foreach ($errors->all() as $message)
+
+
+            <li>{{ $message }}</li>
+
+
+        @endforeach
+
+
+
     </div>
     @endif
 
