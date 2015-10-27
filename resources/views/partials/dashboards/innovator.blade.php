@@ -48,8 +48,8 @@
 		<header class="innoDetails__header">
 			<input type="text" name="innovationTitle" placeholder="Your innovation title" class="inno-title">
 			<button type="button" class="cta cta__btn cta__create">Create</button>
-
 		</header>
+		
 		<div class="step__2">
 			<section class="innoDetails__content">
 				<textarea class="inno-summary" name="innovationDescription" rows="5" placeholder="Tell us about your something about that idea..."></textarea>
@@ -77,7 +77,7 @@
 					</select>
 				</div>
 				<div class="pull-right">
-					<button type="button" class="cta cta__link cta__next">Step 3 of 3: Enter funding details</button>
+					<button type="button" class="cta cta__next cta__btn">Step 3 of 3: Enter funding details</button>
 				</div>
 			</footer>
 		</div>
@@ -99,6 +99,14 @@
 	<div class="col-lg-12">
 		<nav class="innoFilters">
 			<button class="filter current" data-filter="*">Show all</button>
+		@if($categories->count())
+
+			@foreach($categories as $category)
+			<button class="filter current" data-filter="{{ $category->id }}">{{ $category->categoryName }}</button>
+			@endforeach
+
+		@else
+
 			<button class="filter" data-filter=".art">Art</button>
 			<button class="filter" data-filter=".crafts">Crafts</button>
 			<button class="filter" data-filter=".dance">Dance</button>
@@ -112,6 +120,8 @@
 			<button class="filter" data-filter=".music">Music</button>
 			<button class="filter" data-filter=".photography">Photography</button>
 			<button class="filter" data-filter=".technology">Technology</button>
+
+		@endif
 		</nav>
 	</div>
 

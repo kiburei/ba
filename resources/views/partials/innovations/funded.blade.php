@@ -8,12 +8,13 @@
 	<section class="innoList">
 
         @foreach($innovations as $funded)
-
-		<article class="inno education" data-category="education">
+		
+		<article class="inno {{$funded->category->categoryName}}" data-category="{{ $funded->category->id }}">
 			<header>
 				<h3 class="inno-title">
 					<a href="">{{ $funded->innovationTitle }}</a>
 				</h3>
+				<p class="inno-innovator">{{ $funded->user_id }}</p>
 			</header>
 			<footer class="inno-meta">
 				<div class="inno-category">{{ $funded->category->categoryName}}</div>
