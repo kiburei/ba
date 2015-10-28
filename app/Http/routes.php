@@ -103,11 +103,11 @@ Route::group(['middleware' => 'auth'], function() {
 Route::group(['middleware' => 'guest'], function() {
 
     // Login routes
-    get('auth/login', [
-        'as' => 'auth/login', 'uses' => 'Auth\AuthController@getLogin'
+    get('login', [
+        'as' => 'login', 'uses' => 'Auth\AuthController@getLogin'
     ]);
-    post('auth/login', [
-        'as' => 'auth/login', 'uses' => 'Auth\AuthController@postLogin'
+    post('login', [
+        'as' => 'login', 'uses' => 'Auth\AuthController@postLogin'
     ]);
 
 // Registration routes...
