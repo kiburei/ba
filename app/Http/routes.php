@@ -93,7 +93,7 @@ Route::group(['middleware' => 'auth'], function() {
             'as' => 'investorDashboard', 'uses' => 'DashboardController@investor'
         ]);
     //Logout Route(s)
-    get('logout',[
+    get('auth/logout',[
         'as' => 'logout', 'uses' =>   'Auth\AuthController@getLogout'
     ]);
 
@@ -111,12 +111,12 @@ Route::group(['middleware' => 'guest'], function() {
     ]);
 
 // Registration routes...
-    get('register', [
+    get('auth/register', [
         'as' => 'register', 'uses' => 'Auth\AuthController@getRegister'
     ]);
 
-    post('register', [
-        'as' => 'register', 'uses' => 'Auth\AuthController@postRegister'
+    post('auth/register', [
+        'as' => 'auth/register', 'uses' => 'Auth\AuthController@postRegister'
     ]);
 
 });

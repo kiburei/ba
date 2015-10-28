@@ -59,6 +59,8 @@ class DashboardController extends Controller
 
         $categories = $this->categoryRepository->getAllCategories();
 
+        $fundedProjects = 0;
+
         return view('home.innovator', compact('innovations', 'categories', 'fundedProjects'));
     }
 
@@ -68,7 +70,13 @@ class DashboardController extends Controller
 
     public function investor()
     {
-        return view('home.investor');
+        $innovations = $this->innovationRepository->getAll();
+
+        $categories = $this->categoryRepository->getAllCategories();
+
+        $fundedProjects = 0;
+
+        return view('home.investor',  compact('innovations', 'categories', 'fundedProjects'));
     }
 
 }

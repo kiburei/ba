@@ -2,6 +2,8 @@
 	<header>
 		<h2 class="section__title">Funded Projects</h2>
 	</header>
+
+    @if($fundedProjects > 1)
 	
 	<section class="innoList">
 
@@ -22,4 +24,8 @@
 
         @endforeach
 	</section>
+
+    @else
+        <h4>No funded projects</h4>
+    @endif
 </div>

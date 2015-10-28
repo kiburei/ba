@@ -5,6 +5,8 @@
 
     @if($innovations->count())
 
+
+
 	<section class="innoList innoGrid">
 
         @foreach($innovations as $innovation)
@@ -32,7 +34,7 @@
 
     @else
 
-    <p class="alert-info"><h3>Mhhh!!..You have not submitted any innovations yet..try the above form..</h3><p>
+    <p class="alert-info"><h3>No listed innovations</h></h3><p>
 
     @endif
-</div> <!-- end innovations-pane -->  
+</div> <!-- end innovations-pane -->
