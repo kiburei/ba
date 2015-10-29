@@ -74,6 +74,8 @@ class DashboardController extends Controller
 
         $categories = $this->categoryRepository->getAllCategories();
 
+        $fundedProjects = $this->innovationRepository->getInvestorFunded();
+
         return view('home.investor',  compact('innovations', 'categories', 'fundedProjects'));
     }
 

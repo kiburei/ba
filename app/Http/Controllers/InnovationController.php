@@ -7,6 +7,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Repos\Innovation\InnovationRepository;
 use App\Http\Requests\InnovationsRequest;
+use Illuminate\Support\Facades\Session;
 
 class InnovationController extends Controller
 {
@@ -35,6 +36,19 @@ class InnovationController extends Controller
         $innovation = $this->repo->retrieve($id);
 
         return view('innovation.show', compact('innovation'));
+    }
+
+
+    /**
+     * Save a new innovation post
+     */
+    public function store(InnovationsRequest $innovationsRequest)
+    {
+        $this->repo->persist($innovationsRequest);
+
+        Session::flash('flash_message', 'Awesome!! Your Innovation was submitted successfully!');
+
+        return back();
     }
 
     /**

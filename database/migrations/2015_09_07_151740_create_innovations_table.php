@@ -19,6 +19,7 @@ class CreateInnovationsTable extends Migration
             $table->integer('innovationFund');
             $table->integer('category_id');
             $table->integer('user_id');
+            $table->integer('fund_id');
             $table->integer('fundingStatus')->default(0);
             $table->timestamps();
 

@@ -11,7 +11,7 @@ class Fund extends Model
      *
      * @var array
      */
-    protected $fillable = ['investor_id', 'innovation_id', 'amount'];
+    protected $fillable = ['investor_id', 'innovation_id', 'amount', 'innovator_id', 'name'];
 
 
     /**
@@ -34,4 +34,10 @@ class Fund extends Model
     {
         return $this->belongsTo('App\Innovation');
     }
+
+    public function fund()
+    {
+        return $this->hasOne('App\Innovation');
+    }
+
 }

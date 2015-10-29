@@ -16,6 +16,8 @@ class CreateFundsTable extends Migration
             $table->increments('id');
             $table->integer('investor_id');
             $table->integer('innovator_id');
+            $table->integer('innovation_id');
+            $table->string('name');
             $table->integer('amount');
             $table->timestamps();
         });

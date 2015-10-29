@@ -46,20 +46,20 @@
 
         {!! csrf_field() !!}
 		<header class="innoDetails__header">
-			<input type="text" name="innovationTitle" placeholder="Your innovation title" class="inno-title">
+			<input type="text" name="innovationTitle" placeholder="Your innovation title" class="inno-title" value="{{ old('innovationTitle') }}">
 			<button type="button" class="cta cta__btn cta__create">Create</button>
 		</header>
 		
 		<div class="step__2">
 			<section class="innoDetails__content">
-				<textarea class="inno-summary" name="innovationDescription" rows="5" placeholder="Tell us about your something about that idea..."></textarea>
+				<textarea class="inno-summary" name="innovationDescription" rows="5" placeholder="Tell us about your something about that idea...">{{ old('innovationDescription') }}</textarea>
 			</section>
 			<footer class="innoDetails__footer">
 				<div class="pull-left">
 					Filed under
 					<select name="innovationCategory" class="inno-category">
 
-						<option value="" disabled selected>Uncategorized</option>
+						<option value="{{ old('innovationTitle') }}" disabled selected>Uncategorized</option>
 
                      @if($categories->count())
 
@@ -86,7 +86,7 @@
 		<div class="step__3">
 			<footer class="innoDetails__footer">
 				<div class="pull-left">
-					<input type="name" name="innovationFund" placeholder="Ksh. 1,000,000">
+					<input type="name" name="innovationFund" placeholder="Ksh. 1,000,000" value="{{ old('innovationFund') }}">
 				</div>
 				<div class="pull-right">
 					<button type="submit" class="cta cta__btn cta__publish">Publish</button>

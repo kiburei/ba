@@ -17,6 +17,7 @@ class Innovation extends Model
         'innovationDescription',
         'innovationFund',
         'category_id',
+        'fund_id',
         'user_id',
         'fundingStatus'
     ];
@@ -49,5 +50,10 @@ class Innovation extends Model
     public function chats()
     {
         return $this->hasMany('App\Chat');
+    }
+
+    public function fund()
+    {
+        return $this->hasOne('App\Fund');
     }
 }

@@ -10,7 +10,12 @@
 			<header class="innoDetails__header">
 				<hgroup>
 					<h3 class="inno-title">{{ $innovation->innovationTitle }}</h3>
-					<h4 class="inno-innovator">by <a href="#">{{ $innovation->user->name }}</a></h4>
+
+                    @if(\Auth::user()->id  == $innovation->user_id)
+					<h4 class="inno-innovator">by <a href="#">you</a></h4>
+                    @else
+                    <h4 class="inno-innovator">by <a href="#">{{ $innovation->user->name }}</a></h4>
+                    @endif
 				</hgroup>
 				<div class="inno-meta">
 					Filed under <a href="#" class="inno-category">{{ $innovation->category->categoryName }}</a>
@@ -29,7 +34,7 @@
 			</section>
 			<hr>
 			<footer class="innoDetails__footer">
-				<section class="row">
+				<!--<section class="row">
 					<div class="col-md-3">
 						<h4>About this Innovator</h4>
 					</div>
@@ -41,7 +46,7 @@
 						</div>
 					</div>
 				</section>
-				<hr>
+				<hr>-->
 				<section class="row">
 					<div class="col-md-3">
 						<h4 class="section__title">Reader's Comments</h4>
@@ -123,26 +128,28 @@
 	<aside class="col-lg-3">
 		<div class="innoData-list">
 			<div class="innoData">
-				<div class="innoData__title">Funding Needed by Innovator</div>
+				<div class="innoData__title">Funding Needed</div>
 				<div class="innoData__content">{{ $innovation->innovationFund }}</div>
 			</div>
 		</div>
 
-        @if($innovation->fundingStatus == 0 )
+        @if(\Auth::user()->userCategory == 2)
+            @if($innovation->fundingStatus == 0 )
 
-		<div class="innoData-list">
-			<div class="innoData">
-				<div class="innoData__title">Potential Funding Available</div>
-				<div class="innoData__content">Ksh. 71,000,500</div>
-			</div>
-			<div class="innoData">
-				<div class="innoData__title">Your Balance after funding this</div>
-				<div class="innoData__content">Ksh. 70,000,500</div>
-			</div>
-		</div>
-		<a href="/innovation/fund/{{ $innovation->id }}"><button class="cta cta_btn">Fund this project</button></a>
-        @else
-        <button class="cta cta_btn">Funded</button>
+            <div class="innoData-list">
+                <div class="innoData">
+                    <div class="innoData__title">Potential Funding Available</div>
+                    <div class="innoData__content">Ksh. 71,000,500</div>
+                </div>
+                <div class="innoData">
+                    <div class="innoData__title">Your Balance after funding this</div>
+                    <div class="innoData__content">Ksh. 70,000,500</div>
+                </div>
+            </div>
+            <a href="/innovation/fund/{{ $innovation->id }}"><button class="cta cta_btn">Fund this project</button></a>
+            @else
+            <button class="cta cta_btn">Funded</button>
+            @endif
         @endif
 	</aside>
 </div>
