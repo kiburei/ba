@@ -13,9 +13,29 @@
 			<article class="inno {{$innovation->category->categoryName}}" data-category="{{ $innovation->category->id }}">
 				<header>
 					<h3 class="inno-title">
-						<a href="">{{ $innovation->innovationTitle }}</a>
+
+						@if(\Auth::user()->userCategory == 2)
+                            <a  href="/innovation/{{ $innovation->id }}">
+
+                                {{ $innovation->innovationTitle }}
+                            </a>
+
+                        @else
+
+                        <a  href="">
+                            {{ $innovation->innovationTitle }}
+                        </a>
+
+                        @endif
+
+
+                            </a>
 					</h3>
-					<p class="inno-innovator">{{ $innovation->user_id }}</p>
+                    @if(\Auth::user()->id == $innovation->user_id)
+                    <p class="inno-innovator">By you</p>
+                    @else
+                    <p class="inno-innovator">{{ $innovation->user->name }}</p>
+                    @endif
 				</header>
 				<p class="inno-summary">
 					{{ $innovation->innovationDescription }}
@@ -29,7 +49,6 @@
 			</article>
 
         @endforeach
-
 	</section> <!-- end innoList -->
 
     @else

@@ -9,23 +9,23 @@
 		<article class="inno innoDetails education" data-category="education">
 			<header class="innoDetails__header">
 				<hgroup>
-					<h3 class="inno-title">Robo Wunderkind: A robot anyone can build</h3>
-					<h4 class="inno-innovator">by <a href="#">Andrew Mwangi</a></h4>
+					<h3 class="inno-title">{{ $innovation->innovationTitle }}</h3>
+					<h4 class="inno-innovator">by <a href="#">{{ $innovation->user->name }}</a></h4>
 				</hgroup>
 				<div class="inno-meta">
-					Filed under <a href="#" class="inno-category">Education</a>
+					Filed under <a href="#" class="inno-category">{{ $innovation->category->categoryName }}</a>
 				</div>
 			</header>
 			<section class="innoDetails__content">
 				<p class="inno-summary">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.
+				    {{ $innovation->innovationDescription }}
 				</p>
-				<h4>What is Robo Wunderkind?</h4>
+				<!--<h4>What is Robo Wunderkind?</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.</p>
 				<p>Et mollis nunc diam eget sapien. Nulla facilisi. Etiam feugiat imperdiet rhoncus. Sed suscipit bibendum enim, sed volutpat tortor malesuada non. Morbi fringilla dui non purus porttitor mattis. Suspendisse quis vulputate risus. Phasellus erat velit, sagittis sed varius volutpat, placerat nec urna. Nam eu metus vitae dolor fringilla feugiat. Nulla.</p>
 				<h4>How does it work?</h4>
 				<p>Facilisi. Etiam enim metus, luctus in adipiscing at, consectetur quis sapien. Duis imperdiet egestas ligula, quis hendrerit ipsum ullamcorper et. Phasellus id tristique orci. Proin consequat mi at felis scelerisque ullamcorper. Etiam tempus, felis vel eleifend porta, velit nunc mattis urna, at ullamcorper erat diam dignissim ante. Pellentesque justo risus.</p>
+				-->
 			</section>
 			<hr>
 			<footer class="innoDetails__footer">
@@ -124,9 +124,12 @@
 		<div class="innoData-list">
 			<div class="innoData">
 				<div class="innoData__title">Funding Needed by Innovator</div>
-				<div class="innoData__content">Ksh. 1,000,000</div>
+				<div class="innoData__content">{{ $innovation->innovationFund }}</div>
 			</div>
 		</div>
+
+        @if($innovation->fundingStatus == 0 )
+
 		<div class="innoData-list">
 			<div class="innoData">
 				<div class="innoData__title">Potential Funding Available</div>
@@ -137,6 +140,9 @@
 				<div class="innoData__content">Ksh. 70,000,500</div>
 			</div>
 		</div>
-		<button class="cta cta_btn">Fund this project</button>
+		<a href="/innovation/fund/{{ $innovation->id }}"><button class="cta cta_btn">Fund this project</button></a>
+        @else
+        <button class="cta cta_btn">Funded</button>
+        @endif
 	</aside>
 </div>

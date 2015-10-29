@@ -55,12 +55,16 @@ Route::group(['middleware' => 'auth'], function() {
 
 
     post('create/innovation/', [
-            'as' => 'createInnovation', 'uses' => 'InnovationsController@store'
+            'as' => 'createInnovation', 'uses' => 'InnovationController@store'
         ]);
 
     post('/innovation/{id}/update', [
             'as' => 'updateInnovation', 'uses' => 'InnovationController@update'
         ]);
+
+    get('/innovation/fund/{id}', [
+        'as' => 'fundInnovation', 'uses' => 'InnovationController@fund'
+    ]);
 
     get('innovations', function()
     {
@@ -120,4 +124,5 @@ Route::group(['middleware' => 'guest'], function() {
     ]);
 
 });
+
 

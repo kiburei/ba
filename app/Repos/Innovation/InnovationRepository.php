@@ -93,7 +93,7 @@ class InnovationRepository
      */
     public function retrieve($id)
     {
-        return Innovation::findOrFail($id);
+        return $this->innovation->where('id', '=', $id)->with('user', 'category')->first();
     }
 
 
@@ -163,6 +163,30 @@ class InnovationRepository
     {
         return Innovation::orderBy('created_at', 'desc')
             ->get();
+    }
+
+    /**
+     * Set an innovation as being funded
+     * @param $id
+     */
+    public function fundInnovation($id)
+    {
+        $innovation = Innovation::findOrFail($id);
+
+        $innovation->update([
+
+            'fundingStatus' => 1
+
+        ]);
+    }
+
+    public function getFunded()
+    {
+        return $this->innovation
+                    ->where('user_id', '=', \Auth::user()->id)
+                    ->where('fundingStatus', '=', 1)
+                    ->with('category', 'user')
+                    ->latest()->get();
     }
 
 } 
