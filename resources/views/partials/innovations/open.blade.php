@@ -56,4 +56,4 @@
     <p class="alert-info"><h3>No listed innovations</h></h3><p>
 
     @endif
-</div> <!-- end innovations-pane -->  
+</div> <!-- end innovations-pane -->

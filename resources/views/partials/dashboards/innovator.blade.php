@@ -77,6 +77,7 @@
 					</select>
 				</div>
 				<div class="pull-right">
+					<a href="#" class="cta cta__prev cta__link">&larr; Back</a>
 					<button type="button" class="cta cta__next cta__btn">Step 3 of 3: Enter funding details</button>
 				</div>
 			</footer>
@@ -102,24 +103,8 @@
 		@if($categories->count())
 
 			@foreach($categories as $category)
-			<button class="filter current" data-filter="{{ $category->id }}">{{ $category->categoryName }}</button>
+			<button class="filter" data-filter="{{ $category->id }}">{{ $category->categoryName }}</button>
 			@endforeach
-
-		@else
-
-			<button class="filter" data-filter=".art">Art</button>
-			<button class="filter" data-filter=".crafts">Crafts</button>
-			<button class="filter" data-filter=".dance">Dance</button>
-			<button class="filter" data-filter=".design">Design</button>
-			<button class="filter" data-filter=".education">Education</button>
-			<button class="filter" data-filter=".fashion">Fashion</button>
-			<button class="filter" data-filter=".film">Film & Video</button>
-			<button class="filter" data-filter=".food">Food</button>
-			<button class="filter" data-filter=".games">Games</button>
-			<button class="filter" data-filter=".journalism">Journalism</button>
-			<button class="filter" data-filter=".music">Music</button>
-			<button class="filter" data-filter=".photography">Photography</button>
-			<button class="filter" data-filter=".technology">Technology</button>
 
 		@endif
 		</nav>
