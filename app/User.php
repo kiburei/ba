@@ -78,7 +78,7 @@ class User extends Model implements AuthenticatableContract,
      */
     public function isInnovator()
     {
-        return !$this->investor() && !$this->isAdmin();
+        return !$this->isInvestor() && !$this->isAdmin() && !$this->isMother();
     }
 
     public function isAdmin()
