@@ -28,7 +28,7 @@ class User extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password', 'userCategory'];
+    protected $fillable = ['name', 'email', 'password', 'more_details','userCategory', 'terms'];
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -78,7 +78,15 @@ class User extends Model implements AuthenticatableContract,
      */
     public function isInnovator()
     {
-        return !$this->investor();
+        return !$this->investor() && !$this->isAdmin();
+    }
+
+    public function isAdmin()
+    {
+        if($this->userCategory == 3)
+            return true;
+
+        return false;
     }
 
     /**

@@ -2,7 +2,7 @@
 
 
 @section('content')
-	<form method="POST" action="{{ url('auth/register') }}" class="form-signin">
+	<form method="POST" action="/auth/register/innovator/" class="form-signin">
 
         {!! csrf_field() !!}
 
@@ -12,6 +12,12 @@
 			<input type="text" name="name" value="{{ old('name') }}" class="form-control" placeholder="Name">
 		</div>
 		{!! $errors->first('name', '<span class="help-block">:message</span>' ) !!}
+
+        <div class="form_field {{ $errors->has('more_details') ? 'has-error' : ''}}" >
+            <label for="more_details" class="sr-only">More about you</label>
+            <textarea name="more_details" class="form-control" placeholder="More details about you">{{ old('more_details') }}</textarea>
+        </div>
+        {!! $errors->first('more_details', '<span class="help-block">:message</span>' ) !!}
 
 		<div class="form_field {{ $errors->has('name') ? 'has-error' : ''}}">
 			<label for="email" class="sr-only">Email</label>
@@ -30,15 +36,13 @@
 			<input type="password" name="password_confirmation" class="form-control" placeholder="Confirm Password">
 		</div>
 
-		<div class="radio {{ $errors->has('name') ? 'has-error' : ''}}">
-			<label class="radio-inline">
-				<input type="radio" name="userCategory" id="innovatorRadio" value="1"> Innovator
-			</label>
-			<label class="radio-inline">
-				<input type="radio" name="userCategory" id="investorRadio" value="2"> Investor
-			</label>
-		</div>
-		{!! $errors->first('userCategory', '<span class="help-block">:message</span>' ) !!}
+        <p>Terms and conditions here</p>
+
+        Agree with terms and conditions
+        <div class="form_field {{ $errors->has('terms') ? 'has-error' : ''}}">
+             <input name="terms" type="checkbox">
+        </div>
+        {!! $errors->first('terms', '<span class="help-block">:message</span>' ) !!}
 
 		<div class="form_field">
 			<button type="submit" class="cta cta_btn">Register</button>

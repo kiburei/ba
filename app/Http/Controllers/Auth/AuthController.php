@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Illuminate\Support\Facades\Request;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -41,12 +42,34 @@ class AuthController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|confirmed|min:6',
-            'userCategory' => 'required'
-        ]);
+
+        if(Request::url() == $_SERVER['HTTP_ORIGIN']. "/auth/register/investor")
+        {
+            return Validator::make($data, [
+                'name' => 'required|max:255',
+                'email' => 'required|email|max:255|unique:users',
+                'password' => 'required|confirmed|min:6',
+                //'userCategory' => 'required'
+            ]);
+        }elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/innovator")
+        {
+            return Validator::make($data, [
+                'name' => 'required|max:255',
+                'email' => 'required|email|max:255|unique:users',
+                'more_details' => 'required',
+                'terms'        => 'required|numeric',
+                'password' => 'required|confirmed|min:6',
+                //'userCategory' => 'required'
+            ]);
+        }elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/bongo-employee")
+        {
+            return Validator::make($data, [
+                'name' => 'required|max:255',
+                'email' => 'required|email|max:255|unique:users',
+                'password' => 'required|confirmed|min:6',
+                //'userCategory' => 'required'
+            ]);
+        }
     }
 
     /**
@@ -57,11 +80,35 @@ class AuthController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-            'userCategory' => $data['userCategory']
-        ]);
+
+        if(Request::url() == $_SERVER['HTTP_ORIGIN']. "/auth/register/investor")
+        {
+            return User::create([
+                'name' => $data['name'],
+                'email' => $data['email'],
+                'password' => bcrypt($data['password']),
+                'userCategory' => 2
+            ]);
+        }
+        elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/innovator")
+        {
+            return User::create([
+                'name' => $data['name'],
+                'email' => $data['email'],
+                'password' => bcrypt($data['password']),
+                'more_details' => $data['more_details'],
+                'terms'   => $data['terms'],
+                'userCategory' => 1
+            ]);
+        }
+        elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/bongo-employee")
+        {
+            return User::create([
+                'name' => $data['name'],
+                'email' => $data['email'],
+                'password' => bcrypt($data['password']),
+                'userCategory' => 3
+            ]);
+        }
     }
 }

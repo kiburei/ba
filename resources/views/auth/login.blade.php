@@ -1,6 +1,23 @@
 @extends('layout')
 
+
 @section('content')
+
+<div class="container">
+    @if(Session::has('flash_message'))
+
+    <div class="alert-message alert alert-success {{ Session::has('flash_message_important') ? 'alert-important' : '' }}">
+        @if(Session::has('flash_message_important'))
+
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+        @endif
+
+        {{ session('flash_message') }}
+
+    </div>
+    @endif
+</div>
 	<form method="POST" action="{{ url('login') }}" class="form-signin">
 		<h3 class="form__heading">Login</h3>
 		{!! csrf_field() !!}
@@ -25,6 +42,12 @@
 		<button type="submit" class="cta cta_btn">Login</button>
 	</form>
 @stop
+
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+
+<script>
+    $('div.alert-message').not('.alert-important').delay(2000).slideUp(300);
+</script>
 
 
 

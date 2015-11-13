@@ -44,8 +44,15 @@ class DashboardController extends Controller
     {
         if(\Auth::user()->isInvestor()){
             return $this->investor();
+        }elseif(\Auth::user()->isInnovator())
+        {
+            return $this->innovator();
         }
-        return $this->innovator();
+        elseif(\Auth::user()->isAdmin())
+        {
+            return $this->bongoEmployee();
+        }
+
     }
 
     /**
@@ -77,6 +84,12 @@ class DashboardController extends Controller
         $fundedProjects = $this->innovationRepository->getInvestorFunded();
 
         return view('home.investor',  compact('innovations', 'categories', 'fundedProjects'));
+    }
+
+
+    public function bongoEmployee()
+    {
+       return view('admin.bongo');
     }
 
     public function viewInnovation()

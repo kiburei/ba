@@ -7,12 +7,14 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'CategoryTableSeeder' => $baseDir . '/database/seeds/CategoryTableSeeder.php',
+    'CreateBongoRequestsMigrationTable' => $baseDir . '/database/migrations/2015_11_13_062038_create_bongo_requests_migration_table.php',
     'CreateCategoriesTable' => $baseDir . '/database/migrations/2015_09_08_084148_create_categories_table.php',
     'CreateChatsTable' => $baseDir . '/database/migrations/2015_09_07_151828_create_chats_table.php',
     'CreateCommentsTable' => $baseDir . '/database/migrations/2015_09_07_151815_create_comments_table.php',
     'CreateFundsTable' => $baseDir . '/database/migrations/2015_09_10_113247_create_funds_table.php',
     'CreateInnovationsTable' => $baseDir . '/database/migrations/2015_09_07_151740_create_innovations_table.php',
     'CreateInnovatorsTable' => $baseDir . '/database/migrations/2015_09_10_115629_create_innovators_table.php',
+    'CreateInvestorRequestsMigrationTable' => $baseDir . '/database/migrations/2015_11_11_061052_create_investor_requests_migration_table.php',
     'CreateInvestorsTable' => $baseDir . '/database/migrations/2015_09_10_115619_create_investors_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',

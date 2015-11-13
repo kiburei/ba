@@ -14,7 +14,7 @@
                     @if(\Auth::user()->id  == $innovation->user_id)
 					<h4 class="inno-innovator">by <a href="#">you</a></h4>
                     @else
-                    <h4 class="inno-innovator">by <a href="#">{{ $innovation->user->name }}</a></h4>
+                    <h4 class="inno-innovator">by <a href="/innovator/profile/{{$innovation->user_id}}">{{ $innovation->user->name }}</a></h4>
                     @endif
 				</hgroup>
 				<div class="inno-meta">

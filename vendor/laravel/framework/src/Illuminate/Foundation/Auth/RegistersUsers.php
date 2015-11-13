@@ -37,15 +37,19 @@ trait RegistersUsers
 
         Auth::login($this->create($request->all()));
 
-        if($request->userCategory == 1)
+        if($request->url() == $_SERVER['HTTP_ORIGIN']. "/auth/register/innovator")
         {
            return redirect('dashboard/innovator');
         }
 
-        elseif($request->userCategory == 2)
+        elseif($request->url() == $_SERVER['HTTP_ORIGIN']. "/auth/register/investor")
         {
             return redirect('dashboard/investor');
         }
 
+        elseif($request->url() == $_SERVER['HTTP_ORIGIN']. "/auth/register/bongo-employee")
+        {
+            return redirect('dashboard/bongo/admin');
+        }
     }
 }

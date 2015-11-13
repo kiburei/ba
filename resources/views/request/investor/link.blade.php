@@ -1,0 +1,1 @@
+<h3><a href="/request/bongo/confirm/{{$request_link}}">{{ $request_link }}</a></h3>
