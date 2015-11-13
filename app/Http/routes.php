@@ -97,11 +97,29 @@ Route::group(['middleware' => 'auth'], function() {
             'as' => 'investorDashboard', 'uses' => 'DashboardController@investor'
         ]);
 
+    get('dashboard/bongo/admin', [
+        'as' => 'bongoDashboard', 'uses' => 'DashboardController@bongoEmployee'
+    ]);
+
+    get('/request/bongo/send/{request_id}/', 'InvestorRequestsController@bongoSendLink');
+
+    get('/request/bongo-employee/send/{request_id}/', 'BongoRequestController@bongoSendLink');
+
+    get('/request/bongo/confirm/{request_link}', 'InvestorRequestsController@bongoConfirmLink');
+
+
+    get('/request/bongo-employee/confirm/{request_link}', 'BongoRequestController@bongoConfirmLink');
+
 
     //Logout Route(s)
     get('auth/logout',[
         'as' => 'logout', 'uses' =>   'Auth\AuthController@getLogout'
     ]);
+
+    get('/request/all/investors', 'InvestorRequestsController@getAll');
+
+
+    get('/request/all/employees/', 'BongoRequestController@getAll');
 
     /*
      * Profile routes
@@ -150,23 +168,6 @@ Route::group(['middleware' => 'guest'], function() {
 
     post('/request/bongo/send/', 'BongoRequestController@persistRequest');
 
-    get('/request/all/investors', 'InvestorRequestsController@getAll');
-
-
-    get('/request/all/employees/', 'BongoRequestController@getAll');
-
-    get('/request/bongo/send/{request_id}/', 'InvestorRequestsController@bongoSendLink');
-
-    get('/request/bongo-employee/send/{request_id}/', 'BongoRequestController@bongoSendLink');
-
-    get('/request/bongo/confirm/{request_link}', 'InvestorRequestsController@bongoConfirmLink');
-
-
-    get('/request/bongo-employee/confirm/{request_link}', 'BongoRequestController@bongoConfirmLink');
-
-    get('dashboard/bongo/admin', [
-        'as' => 'bongoDashboard', 'uses' => 'DashboardController@bongoEmployee'
-    ]);
 
 });
 

@@ -59,6 +59,7 @@ class BongoRequestController extends Controller
         }
         else
         {
+            \Auth::logout();
             return view('request.bongo.register', compact('request_link'));
         }
     }

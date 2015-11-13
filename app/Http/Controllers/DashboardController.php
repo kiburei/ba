@@ -53,6 +53,11 @@ class DashboardController extends Controller
             return $this->bongoEmployee();
         }
 
+        elseif(\Auth::user()->isMother())
+        {
+            return $this->bongoMother();
+        }
+
     }
 
     /**
@@ -90,6 +95,11 @@ class DashboardController extends Controller
     public function bongoEmployee()
     {
        return view('admin.bongo');
+    }
+
+    public function bongoMother()
+    {
+        return view('admin.mother');
     }
 
     public function viewInnovation()

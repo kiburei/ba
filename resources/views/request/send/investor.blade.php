@@ -1,4 +1,4 @@
-<form method="post" action="/request/send/">
+<form method="post" action="/request/investor/send/">
 
     {!! csrf_field() !!}
 

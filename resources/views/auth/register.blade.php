@@ -40,7 +40,7 @@
 
         Agree with terms and conditions
         <div class="form_field {{ $errors->has('terms') ? 'has-error' : ''}}">
-             <input name="terms" type="checkbox">
+             <input name="terms" value="1" type="checkbox">
         </div>
         {!! $errors->first('terms', '<span class="help-block">:message</span>' ) !!}
 

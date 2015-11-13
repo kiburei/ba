@@ -59,6 +59,7 @@ class InvestorRequestsController extends Controller
         }
         else
         {
+            \Auth::logout();
             return view('request.investor.register', compact('request_link'));
         }
     }

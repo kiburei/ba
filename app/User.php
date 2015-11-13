@@ -89,6 +89,14 @@ class User extends Model implements AuthenticatableContract,
         return false;
     }
 
+    public function isMother()
+    {
+        if($this->userCategory == 4)
+            return true;
+
+        return false;
+    }
+
     /**
      * One to may user innovation relationship
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
