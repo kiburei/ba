@@ -14,7 +14,7 @@
                     @if(\Auth::user()->id  == $innovation->user_id)
 					<h4 class="inno-innovator">by <a href="#">you</a></h4>
                     @else
-                    <h4 class="inno-innovator">by <a href="/innovator/profile/{{$innovation->user_id}}">{{ $innovation->user->name }}</a></h4>
+                    <h4 class="inno-innovator">by <a href="{{ url('innovator/profile/'.$innovation->user_id) }}">{{ $innovation->user->name }}</a></h4>
                     @endif
 				</hgroup>
 				<div class="inno-meta">
@@ -48,81 +48,48 @@
 				</section>
 				<hr>-->
 
-                <button>Start A conversation</button>
+				<section class="row">
 
-				<section class="row">
-					<div class="col-md-3">
-						<h4 class="section__title">Reader's Comments</h4>
-					</div>
-					<div class="col-md-9 media-list">
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="..." alt="...">
-								</a>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Simon, Njagi</h4>
-								<p>Facilisi. Etiam enim metus, luctus in adipiscing at, consectetur quis sapien. Duis imperdiet egestas ligula, quis hendrerit ipsum ullamcorper et.</p>
-							</div>
-						</div>
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="..." alt="...">
-								</a>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Nguru, Patrick</h4>
-								<p>Facilisi. Etiam enim metus, luctus in adipiscing at, consectetur quis sapien. Duis imperdiet egestas ligula, quis hendrerit ipsum ullamcorper et.</p>
-							</div>
-						</div>
-						<div class="media">
-							<div class="media-body">
-								<a href="#">View more comments</a>
-							</div>
-						</div>
-					</div>
-				</section>
-				<hr>
-				<section class="row">
-					<div class="col-md-3">
-						<h4>Conversation</h4>
-					</div>
-					<div class="col-md-9">
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="..." alt="...">
-								</a>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">You</h4>
-								<p>Facilisi. Etiam enim metus, luctus in adipiscing at, consectetur quis sapien. Duis imperdiet egestas ligula, quis hendrerit ipsum ullamcorper et.</p>
-							</div>
-						</div>
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="..." alt="...">
-								</a>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Andrew</h4>
-								<p>Facilisi. Etiam enim metus, luctus in adipiscing at, consectetur quis sapien. Duis imperdiet egestas ligula, quis hendrerit ipsum ullamcorper et.</p>
-							</div>
-						</div>
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="..." alt="...">
-								</a>
-							</div>
-							<form class="media-body">
-								<textarea rows="3" class="form-control"></textarea>
-							</form>
-						</div>
-					</div>
+
+                    @if($check_chat == 1)
+
+                    <h4>Start Conversation</h4>
+
+                    <form method="post" action="{{url('innovation/chat/'.$id)}}">
+
+                        {!! csrf_field() !!}
+
+
+
+                        <input type="text" name="start_message">
+
+                        {!! $errors->first('start_message', '<span class="help-block">:message</span>' ) !!}
+
+                        <br>
+
+                        <button type="submit">Start</button>
+                    </form>
+
+                    @elseif($check_chat ==2)
+
+                    <p></p>
+
+                    <form method="post" action="">
+
+                        {!! csrf_field() !!}
+
+                        <input type="text" name="message">
+
+                        {!! $errors->first('message', '<span class="help-block">:message</span>' ) !!}
+
+                        <br>
+
+                        <button type="submit">Send</button>
+                    </form>
+
+
+                    @endif
+
 				</section>
 			</footer>
 		</article>
@@ -149,7 +116,7 @@
                     <div class="innoData__content">Ksh. 70,000,500</div>
                 </div>
             </div>
-            <a href="/innovation/fund/{{ $innovation->id }}"><button class="cta cta_btn">Fund this project</button></a>
+            <a href="{{url('innovation/fund/'.$innovation->id)}}"><button class="cta cta_btn">Fund this project</button></a>
             @else
             <button class="cta cta_btn">Funded</button>
             @endif

@@ -84,9 +84,15 @@ Route::group(['middleware' => 'auth'], function() {
      * Routes for the Comments
      */
 
-    post('/innovation/{id}/chat', [
+
+
+    post('/innovation/chat/{id}', [
             'as' => 'storeComment', 'uses' => 'CommentController@store'
         ]);
+
+    post('/innovation/chat/{message_id}', [
+        'as' => 'storeComment', 'uses' => 'CommentController@chat'
+    ]);
 
     //Dashboard retrieval routes
     get('dashboard/innovator', [
@@ -106,7 +112,6 @@ Route::group(['middleware' => 'auth'], function() {
     get('/request/bongo-employee/send/{request_id}/', 'BongoRequestController@bongoSendLink');
 
     get('/request/bongo/confirm/{request_link}', 'InvestorRequestsController@bongoConfirmLink');
-
 
     get('/request/bongo-employee/confirm/{request_link}', 'BongoRequestController@bongoConfirmLink');
 

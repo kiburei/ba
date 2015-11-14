@@ -14,7 +14,7 @@
 				<header>
 					<h3 class="inno-title">
 
-                            <a  href="/innovation/{{ $innovation->id }}">
+                            <a  href="{{url('innovation/'.$innovation->id)}}">
 
                                 {{ $innovation->innovationTitle }}
                             </a>

@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Repos\Innovation\InnovationRepository;
 use App\Http\Requests\InnovationsRequest;
 use Illuminate\Support\Facades\Session;
+use App\Repos\Conversation\ConversationRepository;
 
 class InnovationController extends Controller
 {
@@ -31,11 +32,17 @@ class InnovationController extends Controller
      * @param $id
      * @return \Illuminate\View\View
      */
-    public function show($id)
+    public function show($id, ConversationRepository $conversationRepository)
     {
         $innovation = $this->repo->retrieve($id);
 
-        return view('innovation.show', compact('innovation'));
+        $check_chat = $conversationRepository->chatExists($id);
+
+        $message =  $conversationRepository->retrieveChat($id);
+
+        //$conversation = $conversationRepository->startConversation();
+
+        return view('innovation.show', compact('innovation', 'id', 'check_chat', 'message'));
     }
 
 

@@ -1,4 +1,4 @@
-<form method="post" action="/request/bongo/send/">
+<form method="post" action="{{ url('request/bongo/send') }}">
 
     {!! csrf_field() !!}
 

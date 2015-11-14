@@ -1,1 +1,1 @@
-<h3><a href="/request/bongo/confirm/{{$request_link}}">{{ $request_link }}</a></h3>
+<h3><a href="{{ url('request/bongo/confirm/'.$request_link) }}">{{ $request_link }}</a></h3>

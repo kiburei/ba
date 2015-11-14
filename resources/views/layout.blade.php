@@ -30,7 +30,7 @@
 
                         @if(!\Auth::guest())
                             @if(\Auth::user()->isInvestor())
-                                <li><a href="{{ url('/innovations/open') }}">Open Innovations</a></li>
+                                <li><a href="{{ url('innovations/open') }}">Open Innovations</a></li>
                                 <li><a href="">Funded Innovations</a></li>
                             @else
                                 <li><a href="">Post an Innovation</a></li>
@@ -44,8 +44,8 @@
 					<li><a href="{{ url('logout') }}">Logout</a></li>
 					@else
 					<li><a href="{{ url('auth/register') }}">Register Innovator</a></li>
-                    <li><a href="{{ url('/request/investor/send') }}">Investor Request</a></li>
-                    <li><a href="{{ url('/request/bongo/send') }}">Bongo Request</a></li>
+                    <li><a href="{{ url('request/investor/send') }}">Investor Request</a></li>
+                    <li><a href="{{ url('request/bongo/send') }}">Bongo Request</a></li>
 					@endif
 					</ul>
 				</div> <!-- end nav-collapse -->
@@ -55,12 +55,12 @@
 		</div> <!-- end container main-->
 
 		<!-- compiled and minified javascript -->
-		<script src="{{ asset('/js/jquery.min.js') }}"></script>
+		<script src="{{ asset('js/jquery.min.js') }}"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-		<script src="{{ asset('/js/dashboard.js') }}"></script>
+		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+		<script src="{{ asset('js/dashboard.js') }}"></script>
         @yield('script')
 
 

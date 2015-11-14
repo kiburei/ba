@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\Http\Requests\ChatRequest;
+
+use App\Repos\Conversation\ConversationRepository;
+
 class CommentController extends Controller
 {
     /**
@@ -15,8 +19,11 @@ class CommentController extends Controller
      * @param  Request  $request
      * @return Response
      */
-    public function store(Request $request)
+    public function store($id, ChatRequest $chatRequest, ConversationRepository $conversationRepository)
     {
-        //
+        $chat = $conversationRepository->startConversation($chatRequest, $id);
+
+        return view('chat.chat', compact('chat'));
+
     }
 }

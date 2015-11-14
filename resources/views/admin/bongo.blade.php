@@ -1,3 +1,3 @@
 A Bongo Employee
 
-<p><a href="/logout">Logout</a> </p>
+<p><a href="{{ url('logout') }}">Logout</a> </p>

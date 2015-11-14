@@ -1,4 +1,4 @@
-<form method="post" action="/request/investor/send/">
+<form method="post" action="{{ url('request/investor/send') }}">
 
     {!! csrf_field() !!}
 
