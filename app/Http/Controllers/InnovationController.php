@@ -28,8 +28,8 @@ class InnovationController extends Controller
     }
 
     /**
-     * Get a single innovation
      * @param $id
+     * @param ConversationRepository $conversationRepository
      * @return \Illuminate\View\View
      */
     public function show($id, ConversationRepository $conversationRepository)

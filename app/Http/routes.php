@@ -41,15 +41,15 @@ Route::group(['middleware' => 'auth'], function() {
     /*
      * Routes for the innovations
      */
-    get('/innovation/{id}', [
+    get('innovation/{id}', [
             'as' => 'specificInnovation', 'uses' => 'InnovationController@show'
         ]);
 
-    get('/innovation/{id}/update', [
+    get('innovation/{id}/update', [
             'as' => 'editInnovation', 'uses' => 'InnovationController@edit'
         ]);
 
-    get('/innovation/{id}/delete', [
+    get('innovation/{id}/delete', [
             'as' => 'deleteInnovation', 'uses' => 'InnovationController@destroy'
         ]);
 
@@ -58,11 +58,11 @@ Route::group(['middleware' => 'auth'], function() {
             'as' => 'createInnovation', 'uses' => 'InnovationController@store'
         ]);
 
-    post('/innovation/{id}/update', [
+    post('innovation/{id}/update', [
             'as' => 'updateInnovation', 'uses' => 'InnovationController@update'
         ]);
 
-    get('/innovation/fund/{id}', [
+    get('innovation/fund/{id}', [
         'as' => 'fundInnovation', 'uses' => 'InnovationController@fund'
     ]);
 
@@ -86,11 +86,11 @@ Route::group(['middleware' => 'auth'], function() {
 
 
 
-    post('/innovation/chat/{id}', [
+    post('innovation/chat/{id}', [
             'as' => 'storeComment', 'uses' => 'CommentController@store'
         ]);
 
-    post('/innovation/chat/{message_id}', [
+    post('innovation/chat/{message_id}', [
         'as' => 'storeComment', 'uses' => 'CommentController@chat'
     ]);
 
@@ -107,13 +107,13 @@ Route::group(['middleware' => 'auth'], function() {
         'as' => 'bongoDashboard', 'uses' => 'DashboardController@bongoEmployee'
     ]);
 
-    get('/request/bongo/send/{request_id}/', 'InvestorRequestsController@bongoSendLink');
+    get('request/bongo/send/{request_id}/', 'InvestorRequestsController@bongoSendLink');
 
-    get('/request/bongo-employee/send/{request_id}/', 'BongoRequestController@bongoSendLink');
+    get('request/bongo-employee/send/{request_id}/', 'BongoRequestController@bongoSendLink');
 
-    get('/request/bongo/confirm/{request_link}', 'InvestorRequestsController@bongoConfirmLink');
+    get('request/bongo/confirm/{request_link}', 'InvestorRequestsController@bongoConfirmLink');
 
-    get('/request/bongo-employee/confirm/{request_link}', 'BongoRequestController@bongoConfirmLink');
+    get('request/bongo-employee/confirm/{request_link}', 'BongoRequestController@bongoConfirmLink');
 
 
     //Logout Route(s)
@@ -121,15 +121,15 @@ Route::group(['middleware' => 'auth'], function() {
         'as' => 'logout', 'uses' =>   'Auth\AuthController@getLogout'
     ]);
 
-    get('/request/all/investors', 'InvestorRequestsController@getAll');
+    get('request/all/investors', 'InvestorRequestsController@getAll');
 
 
-    get('/request/all/employees/', 'BongoRequestController@getAll');
+    get('request/all/employees/', 'BongoRequestController@getAll');
 
     /*
      * Profile routes
      */
-    get('/innovator/profile/{innovator_id}', 'ProfileController@loadProfile');
+    get('innovator/profile/{innovator_id}', 'ProfileController@loadProfile');
 
 });
 
@@ -165,13 +165,13 @@ Route::group(['middleware' => 'guest'], function() {
      * Request routes
      */
 
-    get('/request/investor/send/', 'InvestorRequestsController@getSendRequest');
+    get('request/investor/send/', 'InvestorRequestsController@getSendRequest');
 
-    get('/request/bongo/send', 'BongoRequestController@getSendRequest');
+    get('request/bongo/send', 'BongoRequestController@getSendRequest');
 
-    post('/request/investor/send/', 'InvestorRequestsController@persistRequest');
+    post('request/investor/send/', 'InvestorRequestsController@persistRequest');
 
-    post('/request/bongo/send/', 'BongoRequestController@persistRequest');
+    post('request/bongo/send/', 'BongoRequestController@persistRequest');
 
 
 });
