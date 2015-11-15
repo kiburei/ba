@@ -118,6 +118,6 @@
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="//js.pusher.com/2.2/pusher.min.js"></script>
 <script>
-    var pusher = new Pusher("20180f5e31b992042994");
+    var pusher = new Pusher("{{ env('PUSHER_KEY')}}");
 </script>
 <script src="{{ asset('js/pusher.js') }}"></script>
