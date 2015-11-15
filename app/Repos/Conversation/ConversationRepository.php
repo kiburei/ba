@@ -2,6 +2,7 @@
 
 use App\Chat;
 use App\Innovation;
+use App\Message;
 
 class ConversationRepository {
 
@@ -25,7 +26,7 @@ class ConversationRepository {
 
     public function retrieveChat($id)
     {
-        $chat = Chat::where('id', '=', $id)->where('investor_id', '=', \Auth::user()->id)->first();
+        $chat = Message::where('chat_id', '=', $id)->first();
 
         return $chat;
     }

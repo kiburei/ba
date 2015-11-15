@@ -80,20 +80,6 @@ Route::group(['middleware' => 'auth'], function() {
         return View('dashboards.innovator')->withInnovations($innovations);
     });
 
-    /*
-     * Routes for the Comments
-     */
-
-
-
-    post('innovation/chat/{id}', [
-            'as' => 'storeComment', 'uses' => 'CommentController@store'
-        ]);
-
-    post('innovation/chat/{message_id}', [
-        'as' => 'storeComment', 'uses' => 'CommentController@chat'
-    ]);
-
     //Dashboard retrieval routes
     get('dashboard/innovator', [
             'as' => 'innovatorDashboard', 'uses' => 'DashboardController@innovator'
@@ -130,6 +116,15 @@ Route::group(['middleware' => 'auth'], function() {
      * Profile routes
      */
     get('innovator/profile/{innovator_id}', 'ProfileController@loadProfile');
+
+    Route::resource('chats', 'ChatController',
+        ['except' => ['create', 'edit']]);
+
+    Route::get('get-innovation', 'InnovationController@viewInnovation');
+
+    Route::get('messages', 'ChatController@index');
+
+    Route::post('chats/make', 'ChatController@store');
 
 });
 
@@ -172,8 +167,6 @@ Route::group(['middleware' => 'guest'], function() {
     post('request/investor/send/', 'InvestorRequestsController@persistRequest');
 
     post('request/bongo/send/', 'BongoRequestController@persistRequest');
-
-
 });
 
 

@@ -50,45 +50,25 @@
 
 				<section class="row">
 
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4 class="text-center">Conversation</h4>
+                            <div id="itemsList">
+                            </div>
+                            <form id="addFrm" role="form">
 
-                    @if($check_chat == 1)
+                                <div class="form-group">
+                                    <input type="hidden" name="innovation_id" value="{{$id}}">
+                                    <input type="text" class="form-control" name="title"  id="title" required="required" placeholder="type your message">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-sm btn-block btn-primary" name="submit" value="Send">
+                                </div>
+                            </form>
+                            <hr>
 
-                    <h4>Start Conversation</h4>
-
-                    <form method="post" action="{{url('innovation/chat/'.$id)}}">
-
-                        {!! csrf_field() !!}
-
-
-
-                        <input type="text" name="start_message">
-
-                        {!! $errors->first('start_message', '<span class="help-block">:message</span>' ) !!}
-
-                        <br>
-
-                        <button type="submit">Start</button>
-                    </form>
-
-                    @elseif($check_chat ==2)
-
-                    <p></p>
-
-                    <form method="post" action="">
-
-                        {!! csrf_field() !!}
-
-                        <input type="text" name="message">
-
-                        {!! $errors->first('message', '<span class="help-block">:message</span>' ) !!}
-
-                        <br>
-
-                        <button type="submit">Send</button>
-                    </form>
-
-
-                    @endif
+                        </div>
+                    </div>
 
 				</section>
 			</footer>
@@ -123,3 +103,21 @@
         @endif
 	</aside>
 </div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ asset('/js/jquery.min.js')}}"></script>
+
+<script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $( 'meta[name="csrf-token"]' ).attr( 'content' )
+        }
+    });
+</script>
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="//js.pusher.com/2.2/pusher.min.js"></script>
+<script>
+    var pusher = new Pusher("20180f5e31b992042994");
+</script>
+<script src="{{ asset('js/pusher.js') }}"></script>

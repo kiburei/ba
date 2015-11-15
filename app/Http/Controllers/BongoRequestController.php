@@ -53,14 +53,14 @@ class BongoRequestController extends Controller
 
         $confirm = $bongoRequestRepo->confirm($request_link);
 
-        if($confirm == 0)
+        if($confirm == null)
         {
             return view('errors.404');
         }
         else
         {
             \Auth::logout();
-            return view('request.bongo.register', compact('request_link'));
+            return view('request.bongo.register', compact('confirm'));
         }
     }
 

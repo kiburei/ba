@@ -15,7 +15,7 @@
 
     <div class="form_field {{ $errors->has('name') ? 'has-error' : ''}}">
         <label for="email" class="sr-only">Email</label>
-        <input type="email" name="email" value="{{ $request_link }}" class="form-control" placeholder="Email">
+        <input type="email" name="email" value="{{ $confirm->bongo_email }}" class="form-control" placeholder="Email">
     </div>
     {!! $errors->first('email', '<span class="help-block">:message</span>' ) !!}
 

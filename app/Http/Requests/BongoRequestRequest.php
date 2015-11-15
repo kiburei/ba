@@ -24,7 +24,7 @@ class BongoRequestRequest extends Request
     public function rules()
     {
         return [
-            'bongo_email' => 'email|required'
+            'bongo_email' => 'email|required|unique:bongo_requests'
         ];
     }
 }

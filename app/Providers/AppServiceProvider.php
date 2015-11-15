@@ -2,6 +2,12 @@
 
 namespace App\Providers;
 
+use Event;
+use App\Message;
+use App\Chat;
+use App\Events\ItemCreated;
+use App\Events\ItemUpdated;
+use App\Events\ItemDeleted;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +19,17 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Message::created(function ($message) {
+            Event::fire(new ItemCreated($message));
+        });
+
+        Chat::updated(function ($item) {
+            Event::fire(new ItemUpdated($item));
+        });
+
+        Chat::deleted(function ($item) {
+            Event::fire(new ItemDeleted($item));
+        });
     }
 
     /**

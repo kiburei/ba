@@ -104,7 +104,7 @@ class User extends Model implements AuthenticatableContract,
      */
     public function innovation()
     {
-        return $this->hasMany('\App\Innovation');
+        return $this->hasMany('App\Innovation');
     }
 
     public function fund()

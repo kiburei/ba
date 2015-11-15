@@ -24,7 +24,9 @@ class BongoRequestRepo {
 
     private function makeRequestLInk($bongo_email)
     {
-        return $bongo_email.'/request/work/';
+        $link = $bongo_email.'abcdefghijklmnopqrstuvwxyz';
+
+        return md5($link);
     }
 
     public function all()
@@ -42,19 +44,19 @@ class BongoRequestRepo {
 
         ]);
 
-        return $request->bongo_email;
+        return $request->request_link;
     }
 
-    public function confirm($bongo_email)
+    public function confirm($request_link)
     {
 
-        if(Bongo_request::where('bongo_email', '=', $bongo_email)->first() == null)
+        if(Bongo_request::where('request_link', '=', $request_link)->first() == null)
         {
-            return 0;
+            return null;
         }
         else
         {
-            return 1;
+            return Bongo_request::where('request_link', '=', $request_link)->first();
         }
     }
 

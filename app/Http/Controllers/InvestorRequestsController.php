@@ -53,14 +53,15 @@ class InvestorRequestsController extends Controller
 
         $confirm = $investorRequestRepo->confirm($request_link);
 
-        if($confirm == 0)
+
+        if($confirm == null)
         {
             return view('errors.404');
         }
         else
         {
             \Auth::logout();
-            return view('request.investor.register', compact('request_link'));
+            return view('request.investor.register', compact('confirm'));
         }
     }
 

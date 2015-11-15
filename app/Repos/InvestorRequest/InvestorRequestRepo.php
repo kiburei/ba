@@ -24,7 +24,8 @@ class InvestorRequestRepo {
 
     private function makeRequestLInk($investor_email)
     {
-        return $investor_email.'/request/work/';
+        $link = $investor_email.'abcdefghijklmnopqrstuvwxyz';
+        return md5($link);
     }
 
     public function all()
@@ -42,19 +43,20 @@ class InvestorRequestRepo {
 
         ]);
 
-        return $request->investor_email;
+        return $request->request_link;
     }
 
-    public function confirm($investor_email)
+    public function confirm($request_link)
     {
 
-        if(Investor_request::where('investor_email', '=', $investor_email)->first() == null)
+        if(Investor_request::where('request_link', '=', $request_link)->first() == null)
         {
-            return 0;
+            return null;
         }
         else
         {
-            return 1;
+            return Investor_request::where('request_link', '=', $request_link)->first();
+
         }
     }
 

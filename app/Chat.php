@@ -6,12 +6,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class Chat extends Model
 {
+    protected $table = 'chats';
+
     /**
      * Fillable elements for the table chats
      *
      * @var array
      */
-    protected $fillable = ['investor_id', 'innovation_id', 'start_message'];
+    protected $fillable = [
+        'investor_id',
+        'innovation_id',
+        'innovator_id'
+    ];
 
 
     /**
@@ -19,11 +25,14 @@ class Chat extends Model
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function comments()
+    public function messages()
     {
-        return $this->hasMany('App\Comment');
+        return $this->hasMany('App\Message');
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
     public function innovation()
     {
         return $this->belongsTo('App\Innovation');
