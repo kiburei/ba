@@ -15,14 +15,15 @@ class CreateInnovationsTable extends Migration
         Schema::create('innovations', function (Blueprint $table) {
             $table->increments('id');
             $table->string('innovationTitle');
-            $table->string('innovationDescription');
+            $table->text('innovationDescription');
             $table->integer('innovationFund');
+            $table->string('companyName')->nullable();
+            $table->string('companyNumber')->nullable();
             $table->integer('category_id');
             $table->integer('user_id');
             $table->integer('fund_id');
             $table->integer('fundingStatus')->default(0);
             $table->timestamps();
-
         });
     }
 

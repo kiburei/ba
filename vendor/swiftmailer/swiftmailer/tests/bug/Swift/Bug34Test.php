@@ -17,7 +17,7 @@ class Swift_Bug34Test extends \PHPUnit_Framework_TestCase
         $image = Swift_Image::newInstance('<image data>', 'image.gif', 'image/gif');
         $cid = $message->embed($image);
 
-        $message->setBody('<img src="'.$cid.'" />', 'text/html');
+        $message->setBody('<images src="'.$cid.'" />', 'text/html');
 
         $message->setTo(array('user@domain.tld' => 'User'));
 
@@ -55,7 +55,7 @@ class Swift_Bug34Test extends \PHPUnit_Framework_TestCase
         'Content-Type: text/html; charset=utf-8'."\r\n".
         'Content-Transfer-Encoding: quoted-printable'."\r\n".
         "\r\n".
-        '<img.*?/>'.
+        '<images.*?/>'.
         "\r\n\r\n".
         '--\\1'."\r\n".
         'Content-Type: image/gif; name=image.gif'."\r\n".

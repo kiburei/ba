@@ -17,7 +17,7 @@
       background: "rgba(255,255,255,.25)",
       autohidemode: "false"
     }).cursor.css({
-      "background-image": "url(img/mac6scroll.png)"
+      "background-image": "url(images/mac6scroll.png)"
     });
   });
 

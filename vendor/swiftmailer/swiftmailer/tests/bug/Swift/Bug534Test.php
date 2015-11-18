@@ -12,7 +12,7 @@ class Swift_Bug534Test extends \PHPUnit_Framework_TestCase
             ->setSubject('test')
         ;
         $cid = $message->embed(Swift_Image::fromPath(__DIR__.'/../../_samples/files/swiftmailer.png'));
-        $message->setBody('<img src="'.$cid.'" />', 'text/html');
+        $message->setBody('<images src="'.$cid.'" />', 'text/html');
 
         $that = $this;
         $messageValidation = function (Swift_Mime_Message $message) use ($that) {

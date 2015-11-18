@@ -15,6 +15,8 @@ class Innovation extends Model
 
         'innovationTitle',
         'innovationDescription',
+        'companyName',
+        'companyNumber',
         'innovationFund',
         'category_id',
         'fund_id',

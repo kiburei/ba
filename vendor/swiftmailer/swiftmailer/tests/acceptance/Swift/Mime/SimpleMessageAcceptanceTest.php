@@ -827,7 +827,7 @@ class Swift_Mime_SimpleMessageAcceptanceTest extends \PHPUnit_Framework_TestCase
         $part = $this->_createMimePart();
         $part->setContentType('text/html');
         $part->setCharset('iso-8859-1');
-        $part->setBody('foo <img src="'.$message->embed($file).'" />');
+        $part->setBody('foo <images src="'.$message->embed($file).'" />');
 
         $message->attach($part);
 
@@ -852,7 +852,7 @@ class Swift_Mime_SimpleMessageAcceptanceTest extends \PHPUnit_Framework_TestCase
             'Content-Type: text/html; charset=iso-8859-1'."\r\n".
             'Content-Transfer-Encoding: quoted-printable'."\r\n".
             "\r\n".
-            'foo <img src=3D"cid:'.$cid.'" />'.//=3D is just = in QP
+            'foo <images src=3D"cid:'.$cid.'" />'.//=3D is just = in QP
             "\r\n\r\n".
             '--\\1'."\r\n".
             'Content-Type: image/jpeg; name=myimage.jpg'."\r\n".

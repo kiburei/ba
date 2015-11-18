@@ -1,3 +1,11 @@
+<script type="text/javascript" src="{{ asset('js/tinymce/tinymce.min.js') }}"></script>
+<script type="text/javascript">
+    tinymce.init({
+        selector : "textarea",
+        plugins : ["advlist autolink lists link image charmap print preview anchor", "searchreplace visualblocks code fullscreen", "insertdatetime media table contextmenu paste jbimages"],
+        toolbar : "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image jbimages",
+    });
+</script>
 
 <!--Alert for successfully submitted innovation -->
 <div class="col-lg-12">
@@ -52,7 +60,8 @@
 		
 		<div class="step__2">
 			<section class="innoDetails__content">
-				<textarea class="inno-summary" name="innovationDescription" rows="5" placeholder="Tell us about your something about that idea...">{{ old('innovationDescription') }}</textarea>
+				<!--<textarea class="inno-summary" name="innovationDescription" rows="5" placeholder="Tell us about your something about that idea...">//{{ old('innovationDescription') }}</textarea>-->
+                <textarea name="innovationDescription"></textarea>
 			</section>
 			<footer class="innoDetails__footer">
 				<div class="pull-left">

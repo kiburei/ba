@@ -26,7 +26,7 @@
                     @endif
 				</header>
 				<p class="inno-summary">
-					{{ $innovation->innovationDescription }}
+					{!! $innovation->innovationDescription !!}
 				</p>
 				<footer class="inno-meta">
 

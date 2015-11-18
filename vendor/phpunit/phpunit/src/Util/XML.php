@@ -507,7 +507,7 @@ class PHPUnit_Util_XML
               'code', 'col', 'colgroup', 'dd', 'del', 'div', 'dfn', 'dl',
               'dt', 'em', 'fieldset', 'form', 'frame', 'frameset', 'h1', 'h2',
               'h3', 'h4', 'h5', 'h6', 'head', 'hr', 'html', 'i', 'iframe',
-              'img', 'input', 'ins', 'kbd', 'label', 'legend', 'li', 'link',
+              'images', 'input', 'ins', 'kbd', 'label', 'legend', 'li', 'link',
               'map', 'meta', 'noframes', 'noscript', 'object', 'ol', 'optgroup',
               'option', 'p', 'param', 'pre', 'q', 'samp', 'script', 'select',
               'small', 'span', 'strong', 'style', 'sub', 'sup', 'table',

@@ -56,6 +56,7 @@ class InnovationRepository
             'innovationDescription' => $request->innovationDescription,
             'innovationFund'        => $request->innovationFund,
             'category_id'            => $request->innovationCategory,
+            'ju'
 
         ]);
     }

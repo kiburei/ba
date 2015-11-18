@@ -94,7 +94,7 @@ class HtmlBuilder {
 	{
 		$attributes['alt'] = $alt;
 
-		return '<img src="'.$this->url->asset($url, $secure).'"'.$this->attributes($attributes).'>';
+		return '<images src="'.$this->url->asset($url, $secure).'"'.$this->attributes($attributes).'>';
 	}
 
 	/**

@@ -77,7 +77,7 @@ $base-half-leader: $base-leader / 2;
 }
 
 // Show a background image that can be used to debug your alignments.
-// Include the $img argument if you would rather use your own image than the
+// Include the $images argument if you would rather use your own image than the
 // Compass default gradient image.
 @mixin debug-vertical-alignment($img: false) {
   @if $img {
