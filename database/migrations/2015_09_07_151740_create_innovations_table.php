@@ -17,8 +17,9 @@ class CreateInnovationsTable extends Migration
             $table->string('innovationTitle');
             $table->text('innovationDescription');
             $table->integer('innovationFund');
-            $table->string('companyName')->nullable();
-            $table->string('companyNumber')->nullable();
+            $table->string('tradeMarkName')->nullable();
+            $table->string('tradeMarkNumber')->nullable();
+            $table->text('justifyFund');
             $table->integer('category_id');
             $table->integer('user_id');
             $table->integer('fund_id');

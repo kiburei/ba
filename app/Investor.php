@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Md;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -15,6 +15,6 @@ class Investor extends Model
      */
     public function user()
     {
-        return $this->belongsTo('App\User');
+        return $this->belongsTo('Md\User');
     }
 }

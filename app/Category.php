@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Md;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -24,6 +24,6 @@ class Category extends Model
      */
     public function innovations()
     {
-        return $this->belongsTo('App\Innovation');
+        return $this->belongsTo('Md\Innovation');
     }
 }

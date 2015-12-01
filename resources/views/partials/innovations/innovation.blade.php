@@ -14,7 +14,7 @@
                     @if(\Auth::user()->id  == $innovation->user_id)
 					<h4 class="inno-innovator">by <a href="#">you</a></h4>
                     @else
-                    <h4 class="inno-innovator">by <a href="{{ url('innovator/profile/'.$innovation->user_id) }}">{{ $innovation->user->name }}</a></h4>
+                    <h4 class="inno-innovator">by <a href="{{ url('innovator/profile/'.$innovation->user_id) }}">{{ $innovation->user->first_name }} {{ $innovation->user->last_name }}</a></h4>
                     @endif
 				</hgroup>
 				<div class="inno-meta">
@@ -23,7 +23,9 @@
 			</header>
 			<section class="innoDetails__content">
 				<p class="inno-summary">
-				    {{ $innovation->innovationDescription }}
+
+				    {!! $innovation->innovationDescription !!}
+
 				</p>
 				<!--<h4>What is Robo Wunderkind?</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.</p>
@@ -50,25 +52,101 @@
 
 				<section class="row">
 
+                    @if(\Auth::user()->userCategory == 2)
+
+                    @if($threads_count > 0)
+
                     <div class="row">
                         <div class="col-sm-6">
-                            <h4 class="text-center">Conversation</h4>
-                            <div id="itemsList">
+                            <h4 class="text-center">Chats</h4>
+                            <div class="container">
+                                @if (Session::has('error_message'))
+                                <div class="alert alert-danger" role="alert">
+                                    {!! Session::get('error_message') !!}
+                                </div>
+                                @endif
+                                @if($threads->count() > 0)
+                                @foreach($threads as $thread)
+                                <?php $class = $thread->isUnread($currentUserId) ? 'alert-info' : ''; ?>
+                                <div id="thread_list_{{$thread->id}}" class="col-md-4 media alert {!!$class!!}">
+                                    <h6 class="media-heading">Reply to : {!! link_to('messages/' . $thread->id, $thread->subject) !!}</h6>
+                                    <p id="thread_list_{{$thread->id}}_text">Message : {!! $thread->latestMessage->body !!}</p>
+                                    <p><small><strong>A chat with:</strong> {!! $thread->participantsString(Auth::id(), ['first_name']) !!}</small></p>
+                                </div>
+                                @endforeach
+                                @else
+                                <p>Sorry, no chats from investors.</p>
+                                @endif
                             </div>
-                            <form id="addFrm" role="form">
-
-                                <div class="form-group">
-                                    <input type="hidden" name="innovation_id" value="{{$id}}">
-                                    <input type="text" class="form-control" name="title"  id="title" required="required" placeholder="type your message">
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" class="btn btn-sm btn-block btn-primary" name="submit" value="Send">
-                                </div>
-                            </form>
-                            <hr>
-
                         </div>
                     </div>
+
+                    @else
+                    <div class="container">
+                        <h5>Start a chat</h5>
+                        {!! Form::open(['route' => 'messages.store']) !!}
+                        <div class="col-md-6">
+                            <!-- Subject Form Input -->
+                            <input type="hidden" name="innovation_id" value="{{$innovation->id}}">
+                            <div class="form-group">
+                                <!--{!! Form::label('subject', 'Subject', ['class' => 'control-label']) !!}-->
+                                <!--{!! Form::hidden('subject', null, ['class' => 'form-control', 'value' => '{{\Auth::user()->fullName()}}']) !!}-->
+                                <input type="hidden" name="subject" value="{{\Auth::user()->fullName()}}">
+                            </div>
+
+                            <!-- Message Form Input -->
+                            <div class="form-group">
+                                {!! Form::label('message', 'Message', ['class' => 'control-label']) !!}
+                                {!! Form::textarea('message', null, ['class' => 'form-control']) !!}
+                            </div>
+
+                            <input type="hidden" name="recipients[]" value="{!!$innovation->user->id!!}">
+
+                            <!-- Submit Form Input -->
+                            <div class="form-group">
+                                {!! Form::submit('Submit', ['class' => 'btn btn-primary form-control']) !!}
+                            </div>
+                        </div>
+                        {!! Form::close() !!}
+                    </div>
+
+                    @endif
+
+                    @elseif(\Auth::user()->userCategory == 1)
+
+
+                    <a href="{{ url('messages/'.$innovation->id.'/create-mother/')}}"><button class="btn btn-info">+New chat with moderator</button></a>
+                    <a href="{{ route('messages.create') }}"><button class="btn btn-info">+New chat with expert</button></a>
+
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4 class="text-center">Chats</h4>
+                            <div class="container">
+                                @if (Session::has('error_message'))
+                                <div class="alert alert-danger" role="alert">
+                                    {!! Session::get('error_message') !!}
+                                </div>
+                                @endif
+                                @if($threads->count() > 0)
+                                @foreach($threads as $thread)
+                                <?php $class = $thread->isUnread($currentUserId) ? 'alert-info' : ''; ?>
+                                <div id="thread_list_{{$thread->id}}" class="col-md-4 media alert {!!$class!!}">
+                                    <h4 class="media-heading">Reply to : {!! link_to('messages/' . $thread->id, $thread->subject) !!}</h4>
+                                    <p id="thread_list_{{$thread->id}}_text">Message : {!! $thread->latestMessage->body !!}</p>
+                                    <p><small><strong>A chat with:</strong> {!! $thread->participantsString(Auth::id(), ['first_name']) !!}</small></p>
+                                </div>
+                                @endforeach
+                                @else
+                                <p>Sorry, no chats.</p>
+                                @endif
+                            </div>
+                        </div>
+                    </div>
+
+                    @endif
+
+
 
 				</section>
 			</footer>
@@ -80,6 +158,10 @@
 			<div class="innoData">
 				<div class="innoData__title">Funding Needed</div>
 				<div class="innoData__content">{{ $innovation->innovationFund }}</div>
+                @if($innovation->fundingStatus == 1 )
+                    <button class="btn btn-success">Funded</button>
+                    <a href=""><button class="btn btn-success">View Portfollio</button></a>
+                @endif
 			</div>
 		</div>
 
@@ -98,7 +180,8 @@
             </div>
             <a href="{{url('innovation/fund/'.$innovation->id)}}"><button class="cta cta_btn">Fund this project</button></a>
             @else
-            <button class="cta cta_btn">Funded</button>
+            <button class="btn btn-success">Funded</button>
+            <p class="inno-innovator"><a href="">Portfollio</a></p>
             @endif
         @endif
 	</aside>

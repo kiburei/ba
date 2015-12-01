@@ -6,6 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AddNullableToLastReadInParticipantsTable' => $baseDir . '/database/migrations/2014_11_10_083449_add_nullable_to_last_read_in_participants_table.php',
+    'AddSoftDeletesToParticipantsTable' => $baseDir . '/database/migrations/2014_11_03_154831_add_soft_deletes_to_participants_table.php',
+    'AddSoftdeletesToThreadsTable' => $baseDir . '/database/migrations/2014_12_04_124531_add_softdeletes_to_threads_table.php',
+    'AlterLastReadInParticipantsTable' => $baseDir . '/database/migrations/2014_11_20_131739_alter_last_read_in_participants_table.php',
     'CategoryTableSeeder' => $baseDir . '/database/seeds/CategoryTableSeeder.php',
     'CreateBongoRequestsMigrationTable' => $baseDir . '/database/migrations/2015_11_13_062038_create_bongo_requests_migration_table.php',
     'CreateCategoriesTable' => $baseDir . '/database/migrations/2015_09_08_084148_create_categories_table.php',
@@ -15,8 +19,11 @@ return array(
     'CreateInnovatorsTable' => $baseDir . '/database/migrations/2015_09_10_115629_create_innovators_table.php',
     'CreateInvestorRequestsMigrationTable' => $baseDir . '/database/migrations/2015_11_11_061052_create_investor_requests_migration_table.php',
     'CreateInvestorsTable' => $baseDir . '/database/migrations/2015_09_10_115619_create_investors_table.php',
-    'CreateMessagesMigrationTable' => $baseDir . '/database/migrations/2015_11_15_101134_create_messages_migration_table.php',
+    'CreateMessagesTable' => $baseDir . '/database/migrations/2014_10_28_175710_create_messages_table.php',
+    'CreateParticipantsTable' => $baseDir . '/database/migrations/2014_10_28_180224_create_participants_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+    'CreateThreadsTable' => $baseDir . '/database/migrations/2014_10_28_175635_create_threads_table.php',
+    'CreateUserModeratorTable' => $baseDir . '/database/migrations/2015_11_23_124032_create_user_moderator_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -516,6 +523,7 @@ return array(
     'SebastianBergmann\\Environment\\Runtime' => $vendorDir . '/sebastian/environment/src/Runtime.php',
     'SebastianBergmann\\Exporter\\Exporter' => $vendorDir . '/sebastian/exporter/src/Exporter.php',
     'SebastianBergmann\\GlobalState\\Blacklist' => $vendorDir . '/sebastian/global-state/src/Blacklist.php',
+    'SebastianBergmann\\GlobalState\\CodeExporter' => $vendorDir . '/sebastian/global-state/src/CodeExporter.php',
     'SebastianBergmann\\GlobalState\\Exception' => $vendorDir . '/sebastian/global-state/src/Exception.php',
     'SebastianBergmann\\GlobalState\\Restorer' => $vendorDir . '/sebastian/global-state/src/Restorer.php',
     'SebastianBergmann\\GlobalState\\RuntimeException' => $vendorDir . '/sebastian/global-state/src/RuntimeException.php',

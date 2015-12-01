@@ -1,7 +1,8 @@
 <?php
 
-namespace App;
+namespace Md;
 
+use Cmgmyr\Messenger\Traits\Messagable;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Auth\Passwords\CanResetPassword;
@@ -14,7 +15,7 @@ class User extends Model implements AuthenticatableContract,
                                     AuthorizableContract,
                                     CanResetPasswordContract
 {
-    use Authenticatable, Authorizable, CanResetPassword;
+    use Authenticatable, Authorizable, CanResetPassword, Messagable;
 
     /**
      * The database table used by the model.
@@ -28,7 +29,7 @@ class User extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password', 'more_details','userCategory', 'terms'];
+    protected $fillable = ['first_name', 'last_name', 'email', 'password', 'more_details','userCategory', 'terms'];
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -45,7 +46,7 @@ class User extends Model implements AuthenticatableContract,
      */
     public function investor()
     {
-        return $this->hasOne('App\Investor');
+        return $this->hasOne('Md\Investor');
     }
 
     /**
@@ -55,7 +56,7 @@ class User extends Model implements AuthenticatableContract,
      */
     public function innovator()
     {
-        return $this->hasOne('App\Innovator');
+        return $this->hasOne('Md\Innovator');
     }
 
     /**
@@ -104,11 +105,16 @@ class User extends Model implements AuthenticatableContract,
      */
     public function innovation()
     {
-        return $this->hasMany('App\Innovation');
+        return $this->hasMany('Md\Innovation');
     }
 
     public function fund()
     {
-        return $this->hasMany('App\Fund');
+        return $this->hasMany('Md\Fund');
+    }
+
+    public function fullName()
+    {
+        return $this->first_name." ".$this->last_name;
     }
 }

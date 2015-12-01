@@ -1,9 +1,9 @@
-<?php namespace App\Repos\Innovation;
+<?php namespace Md\Repos\Innovation;
 
 
-use App\Category;
-use App\Innovation;
-use App\User;
+use Md\Category;
+use Md\Innovation;
+use Md\User;
 
 
 class InnovationRepository
@@ -56,7 +56,9 @@ class InnovationRepository
             'innovationDescription' => $request->innovationDescription,
             'innovationFund'        => $request->innovationFund,
             'category_id'            => $request->innovationCategory,
-            'ju'
+            'justifyFund'           => $request->justifyFund,
+            'tradeMarkName'         => $request->tradeMarkName,
+            'tradeMarkNumber'       => $request->tradeMarkNumber
 
         ]);
     }
@@ -189,7 +191,7 @@ class InnovationRepository
                     ->create([
                 'innovator_id' => $innovation->user_id,
                 'investor_id'  => \Auth::user()->id,
-                'name'  => \Auth::user()->name
+                'name'  => \Auth::user()->first_name." ".\Auth::user()->last_name
             ]);
 
     }
@@ -205,7 +207,7 @@ class InnovationRepository
 
     public function getInvestorFunded()
     {
-        return \App\Fund::where('investor_id', '=', \Auth::user()->id)
+        return \Md\Fund::where('investor_id', '=', \Auth::user()->id)
                           ->with('innovation','innovation.user', 'innovation.category')
                           ->latest()
                           ->get();

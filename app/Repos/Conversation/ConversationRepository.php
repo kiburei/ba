@@ -1,8 +1,8 @@
-<?php namespace App\Repos\Conversation;
+<?php namespace Md\Repos\Conversation;
 
-use App\Chat;
-use App\Innovation;
-use App\Message;
+use Md\Chat;
+use Md\Innovation;
+use Md\Message;
 
 class ConversationRepository {
 

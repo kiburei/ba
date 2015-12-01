@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Events;
+namespace Md\Events;
 
-use App\Events\Event;
-use App\Chat;
-use App\Message;
+use Md\Events\Event;
+use Md\Chat;
+use Md\Message;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 

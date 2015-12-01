@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Md;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -15,13 +15,14 @@ class Innovation extends Model
 
         'innovationTitle',
         'innovationDescription',
-        'companyName',
-        'companyNumber',
+        'tradeMarkName',
+        'tradeMarkNumber',
         'innovationFund',
         'category_id',
         'fund_id',
         'user_id',
-        'fundingStatus'
+        'fundingStatus',
+        'justifyFund'
     ];
 
     /**
@@ -31,7 +32,7 @@ class Innovation extends Model
      */
     public function category()
     {
-        return $this->belongsTo('App\Category', 'category_id');
+        return $this->belongsTo('Md\Category', 'category_id');
     }
 
     /**
@@ -41,7 +42,7 @@ class Innovation extends Model
      */
     public function user()
     {
-        return $this->belongsTo('App\User');
+        return $this->belongsTo('Md\User');
     }
 
     /**
@@ -51,11 +52,16 @@ class Innovation extends Model
      */
     public function chats()
     {
-        return $this->hasMany('App\Chat');
+        return $this->hasMany('Md\Chat');
     }
 
     public function fund()
     {
-        return $this->hasOne('App\Fund');
+        return $this->hasOne('Md\Fund');
+    }
+
+    public function threads()
+    {
+        return $this->hasMany('Cmgmyr\Messenger\Models\Thread');
     }
 }

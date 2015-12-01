@@ -1,3 +1,6 @@
+@extends('layout')
+
+@section('content')
 <form method="post" action="{{ url('request/investor/send') }}">
 
     {!! csrf_field() !!}
@@ -8,6 +11,8 @@
 
     {!! $errors->first('investor_email', '<span class="help-block">:message</span>' ) !!}
 
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 
 </form>
+
+@stop

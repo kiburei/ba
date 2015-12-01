@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Providers;
+namespace Md\Providers;
 
 use Event;
-use App\Message;
-use App\Chat;
-use App\Events\ItemCreated;
-use App\Events\ItemUpdated;
-use App\Events\ItemDeleted;
+use Md\Message;
+use Md\Chat;
+use Md\Events\ItemCreated;
+use Md\Events\ItemUpdated;
+use Md\Events\ItemDeleted;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

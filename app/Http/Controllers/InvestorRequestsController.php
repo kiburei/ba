@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Md\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use App\Http\Requests\InvestorRequestRequest;
-use App\Repos\InvestorRequest\InvestorRequestRepo;
+use Md\Http\Requests;
+use Md\Http\Controllers\Controller;
+use Md\Http\Requests\InvestorRequestRequest;
+use Md\Repos\InvestorRequest\InvestorRequestRepo;
 use Illuminate\Support\Facades\Session;
 
 class InvestorRequestsController extends Controller

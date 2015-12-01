@@ -6,9 +6,9 @@
  * Time: 9:16 AM
  */
 
-namespace App\Repos\BongoRequest;
+namespace Md\Repos\BongoRequest;
 
-use App\Bongo_request;
+use Md\Bongo_request;
 
 
 class BongoRequestRepo {

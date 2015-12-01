@@ -1,20 +1,22 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Md\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use App\Repos\Innovation\InnovationRepository;
-use App\Http\Requests\InnovationsRequest;
+use Md\Http\Requests;
+use Md\Http\Controllers\Controller;
+use Md\Repos\Innovation\InnovationRepository;
+use Md\Http\Requests\InnovationsRequest;
 use Illuminate\Support\Facades\Session;
-use App\Repos\Conversation\ConversationRepository;
+use Md\Repos\Conversation\ConversationRepository;
+use Illuminate\Support\Facades\Auth;
+use Cmgmyr\Messenger\Models\Thread;
 
 class InnovationController extends Controller
 {
     /**
      * This innovation repository
-     * @var \App\Repos\Innovation\InnovationRepository
+     * @var \Md\Repos\Innovation\InnovationRepository
      */
     private $repo;
 
@@ -25,6 +27,22 @@ class InnovationController extends Controller
     {
 
         $this->repo = $innovationRepository;
+    }
+
+
+    public function open()
+    {
+        $innovations = $this->repo->getAll();
+
+        return view('innovation.open', compact('innovations'));
+
+    }
+
+    public function funded()
+    {
+        $fundedProjects = $this->repo->getFunded();
+
+        return view('innovation.funded', compact('fundedProjects'));
     }
 
     /**
@@ -38,11 +56,22 @@ class InnovationController extends Controller
 
         $check_chat = $conversationRepository->chatExists($id);
 
-        $message =  $conversationRepository->retrieveChat($id);
+        //$message =  $conversationRepository->retrieveChat($id);
 
         //$conversation = $conversationRepository->startConversation();
 
-        return view('innovation.show', compact('innovation', 'id', 'check_chat', 'message'));
+        $currentUserId = Auth::user()->id;
+
+        // All threads that user is participating in
+        //$threads = Thread::forUser($currentUserId)->get();
+
+        $threads = Thread::forUser($currentUserId)
+                           ->where('innovation_id', '=', $id)
+                           ->latest()->get();
+
+        $threads_count = $threads->count();
+
+        return view('innovation.show', compact('innovation', 'id', 'check_chat', 'message', 'threads', 'threads_count', 'currentUserId'));
     }
 
 

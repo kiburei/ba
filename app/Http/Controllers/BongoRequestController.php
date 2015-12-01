@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Md\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use App\Http\Requests\BongoRequestRequest;
+use Md\Http\Requests;
+use Md\Http\Controllers\Controller;
+use Md\Http\Requests\BongoRequestRequest;
 
-use App\Repos\BongoRequest\BongoRequestRepo;
+use Md\Repos\BongoRequest\BongoRequestRepo;
 
 class BongoRequestController extends Controller
 {

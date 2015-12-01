@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Requests;
+namespace Md\Http\Requests;
 
-use App\Http\Requests\Request;
+use Md\Http\Requests\Request;
 
 class ChatRequest extends Request
 {

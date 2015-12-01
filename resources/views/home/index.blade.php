@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-	@include('partials.da.investor')
+	@include('partials.dashboards.investor')
 @stop

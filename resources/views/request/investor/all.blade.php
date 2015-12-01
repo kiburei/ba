@@ -1,4 +1,6 @@
+@extends('layout')
 
+@section('content')
 <h4>Investor requests</h4>
 @foreach($requests as $request)
 
@@ -20,5 +22,6 @@
     <br>
 
 @endforeach
+@stop
 
 

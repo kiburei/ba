@@ -6,16 +6,16 @@
  * Time: 5:21 PM
  */
 
-namespace App\Repos\Category;
+namespace Md\Repos\Category;
 
-use App\Category;
+use Md\Category;
 
 
 class CategoryRepository
 {
     /**
      * This category model instance
-     * @var \App\Category
+     * @var \Md\Category
      */
     private $category;
 

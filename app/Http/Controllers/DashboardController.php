@@ -1,23 +1,24 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Md\Http\Controllers;
 
-use App\Repos\Innovation\InnovationRepository;
-use App\Repos\Category\CategoryRepository;
-use App\Http\Requests;
+use Md\Repos\Innovation\InnovationRepository;
+use Md\Repos\Category\CategoryRepository;
+use Md\Http\Requests;
+
 
 
 class DashboardController extends Controller
 {
     /**
      * This innovation repository
-     * @var \App\Repos\Innovation\InnovationRepository
+     * @var \Md\Repos\Innovation\InnovationRepository
      */
     private $innovationRepository;
 
     /**
      * This category repository
-     * @var \App\Repos\Category\CategoryRepository
+     * @var \Md\Repos\Category\CategoryRepository
      */
     private $categoryRepository;
 
@@ -99,11 +100,19 @@ class DashboardController extends Controller
 
     public function bongoMother()
     {
-        return view('admin.mother');
+        $innovations = $this->innovationRepository->getAll();
+
+
+        return view('admin.mother', compact('innovations'));
     }
 
     public function viewInnovation()
     {
         return view('partials.dashboards.more-innovation-info');
+    }
+
+    public function about()
+    {
+        return view('pages.about');
     }
 }

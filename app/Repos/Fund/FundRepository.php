@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repos\Fund;
+namespace Md\Repos\Fund;
 
 
 class FundRepository {

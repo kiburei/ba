@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Requests;
+namespace Md\Http\Requests;
 
-use App\Http\Requests\Request;
+use Md\Http\Requests\Request;
 
 class InnovationsRequest extends Request
 {
@@ -28,7 +28,8 @@ class InnovationsRequest extends Request
             'innovationTitle' => 'required',
             'innovationDescription' => 'required',
             'innovationCategory' => 'required',
-            'innovationFund' => 'required | numeric'
+            'innovationFund' => 'required | numeric',
+            'justifyFund'    => 'required'
         ];
     }
 }

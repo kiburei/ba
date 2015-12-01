@@ -137,15 +137,15 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Illuminate\Html\HtmlServiceProvider::class,
-
+        Cmgmyr\Messenger\MessengerServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Md\Providers\AppServiceProvider::class,
+        Md\Providers\AuthServiceProvider::class,
+        Md\Providers\EventServiceProvider::class,
+        Md\Providers\RouteServiceProvider::class,
 
     ],
 

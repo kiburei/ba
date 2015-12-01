@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Md;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -21,7 +21,7 @@ class Fund extends Model
      */
     public function investor()
     {
-        return $this->belongsTo('App\Investor');
+        return $this->belongsTo('Md\Investor');
     }
 
 
@@ -32,12 +32,12 @@ class Fund extends Model
      */
     public function innovation()
     {
-        return $this->belongsTo('App\Innovation');
+        return $this->belongsTo('Md\Innovation');
     }
 
     public function fund()
     {
-        return $this->hasOne('App\Innovation');
+        return $this->hasOne('Md\Innovation');
     }
 
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Md\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use App\Repos\ProfileRepository;
+use Md\Http\Requests;
+use Md\Http\Controllers\Controller;
+use Md\Repos\ProfileRepository;
 
 class ProfileController extends Controller
 {

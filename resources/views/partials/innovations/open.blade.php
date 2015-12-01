@@ -30,7 +30,14 @@
 				</p>
 				<footer class="inno-meta">
 
-                    <div class="inno-category">{{ $innovation->category->categoryName }}</div>
+                    <div class="inno-category">Category:{{ $innovation->category->categoryName }}</div>
+
+                    <br>
+                    <div class="inno-category">
+                        Amount Needed : {{ $innovation->innovationFund }}<br>
+
+                        Amount for:{{ $innovation->justifyFund }}<br>
+                    </div>
 
 					<div class="inno-likes">756</div>
 				</footer>

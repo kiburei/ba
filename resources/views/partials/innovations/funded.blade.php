@@ -12,10 +12,13 @@
                 <article class="inno {{$funded->category->categoryName}}" data-category="{{ $funded->category->id }}">
                     <header>
                         <h3 class="inno-title">
-                            <a href="{{ url('innovation/'.$funded->id) }}">{{ $funded->innovationTitle }}</a>
+                            <a href="{{url('innovation/'.$funded->id)}}">
+                                {{ $funded->innovationTitle }}
+                            </a>
                         </h3>
                             <p class="inno-innovator">Funded by:{{ $funded->fund->name }}</p>
                             <p class="inno-innovator">Amount:{{ $funded->innovationFund }}</p>
+                            <p class="inno-innovator"><a href="">Portfollio</a></p>
                     </header>
                     <footer class="inno-meta">
                         <div class="inno-category">{{ $funded->category->categoryName}}</div>
@@ -38,10 +41,11 @@
             <article class="inno {{$funded->innovation->category->categoryName}}" data-category="{{ $funded->innovation->category->id }}">
                 <header>
                     <h3 class="inno-title">
-                        <a href="{{ url('innovation'.$funded->id)}}">{{ $funded->innovation->innovationTitle }}</a>
+                        <a href="{{ url('innovation/'.$funded->id)}}">{{ $funded->innovation->innovationTitle }}</a>
                     </h3>
                     <p class="inno-innovator">Posted by: {{ $funded->innovation->user->name }}</p>
                     <p class="inno-innovator">Amount Funded: {{ $funded->innovation->innovationFund }}</p>
+                    <p class="inno-innovator"><a href="">Portfollio</a></p>
 
                 </header>
                 <footer class="inno-meta">

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Md;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -32,7 +32,7 @@ class Message extends Model
      */
     public function chat()
     {
-        return $this->belongsTo('App\Chat');
+        return $this->belongsTo('Md\Chat');
     }
 
     /**
@@ -40,7 +40,7 @@ class Message extends Model
      */
     public function user()
     {
-        return $this->belongsTo('App\User', 'sender_id');
+        return $this->belongsTo('Md\User', 'sender_id');
     }
 
 }

@@ -6,9 +6,9 @@
  * Time: 9:58 AM
  */
 
-namespace App\Repos\InvestorRequest;
+namespace Md\Repos\InvestorRequest;
 
-use App\Investor_request;
+use Md\Investor_request;
 
 class InvestorRequestRepo {
 

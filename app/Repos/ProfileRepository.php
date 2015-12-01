@@ -6,8 +6,8 @@
  * Time: 2:01 PM
  */
 
-namespace App\Repos;
-use App\User;
+namespace Md\Repos;
+use Md\User;
 
 
 class ProfileRepository {

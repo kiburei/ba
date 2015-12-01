@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Md\Http\Controllers\Auth;
 
-use App\User;
+use Md\User;
 use Illuminate\Support\Facades\Request;
 use Validator;
-use App\Http\Controllers\Controller;
+use Md\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
@@ -27,7 +27,7 @@ class AuthController extends Controller
     /**
      * Create a new authentication controller instance.
      *
-     * @return \App\Http\Controllers\Auth\AuthController
+     * @return \Md\Http\Controllers\Auth\AuthController
      */
     public function __construct()
     {
@@ -43,28 +43,31 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
 
-        if(Request::url() == $_SERVER['HTTP_ORIGIN']. "/auth/register/investor")
+        if(Request::path() == "auth/register/investor")
         {
             return Validator::make($data, [
-                'name' => 'required|max:255',
+                'first_name' => 'required|max:255',
+                'last_name' => 'required|max:255',
                 'email' => 'required|email|max:255|unique:users',
                 'password' => 'required|confirmed|min:6',
                 //'userCategory' => 'required'
             ]);
-        }elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/innovator")
+        }elseif(Request::path() == "auth/register/innovator")
         {
             return Validator::make($data, [
-                'name' => 'required|max:255',
+                'first_name' => 'required|max:255',
+                'last_name' => 'required|max:255',
                 'email' => 'required|email|max:255|unique:users',
                 'more_details' => 'required',
                 'terms'        => 'required|numeric',
                 'password' => 'required|confirmed|min:6',
                 //'userCategory' => 'required'
             ]);
-        }elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/bongo-employee")
+        }elseif(Request::path() == "auth/register/bongo-employee")
         {
             return Validator::make($data, [
-                'name' => 'required|max:255',
+                'first_name' => 'required|max:255',
+                'last_name' => 'required|max:255',
                 'email' => 'required|email|max:255|unique:users',
                 'password' => 'required|confirmed|min:6',
                 //'userCategory' => 'required'
@@ -81,19 +84,21 @@ class AuthController extends Controller
     protected function create(array $data)
     {
 
-        if(Request::url() == $_SERVER['HTTP_ORIGIN']. "/auth/register/investor")
+        if(Request::path() == "auth/register/investor")
         {
             return User::create([
-                'name' => $data['name'],
+                'first_name' => $data['first_name'],
+                'last_name'  => $data['last_name'],
                 'email' => $data['email'],
                 'password' => bcrypt($data['password']),
                 'userCategory' => 2
             ]);
         }
-        elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/innovator")
+        elseif(Request::path() == "auth/register/innovator")
         {
             return User::create([
-                'name' => $data['name'],
+                'first_name' => $data['first_name'],
+                'last_name'  => $data['last_name'],
                 'email' => $data['email'],
                 'password' => bcrypt($data['password']),
                 'more_details' => $data['more_details'],
@@ -101,10 +106,11 @@ class AuthController extends Controller
                 'userCategory' => 1
             ]);
         }
-        elseif(Request::url() == $_SERVER['HTTP_ORIGIN']."/auth/register/bongo-employee")
+        elseif(Request::path() == "auth/register/bongo-employee")
         {
             return User::create([
-                'name' => $data['name'],
+                'first_name' => $data['first_name'],
+                'last_name'  => $data['last_name'],
                 'email' => $data['email'],
                 'password' => bcrypt($data['password']),
                 'userCategory' => 3

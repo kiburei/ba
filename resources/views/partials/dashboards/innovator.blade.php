@@ -1,9 +1,9 @@
 <script type="text/javascript" src="{{ asset('js/tinymce/tinymce.min.js') }}"></script>
 <script type="text/javascript">
     tinymce.init({
-        selector : "textarea",
-        plugins : ["advlist autolink lists link image charmap print preview anchor", "searchreplace visualblocks code fullscreen", "insertdatetime media table contextmenu paste jbimages"],
-        toolbar : "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image jbimages",
+        selector : "textarea.yes",
+        plugins : ["advlist autolink lists link image charmap print preview anchor", "searchreplace visualblocks code fullscreen", "insertdatetime media table contextmenu paste"],
+        toolbar : "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link ",
     });
 </script>
 
@@ -61,7 +61,7 @@
 		<div class="step__2">
 			<section class="innoDetails__content">
 				<!--<textarea class="inno-summary" name="innovationDescription" rows="5" placeholder="Tell us about your something about that idea...">//{{ old('innovationDescription') }}</textarea>-->
-                <textarea name="innovationDescription"></textarea>
+                <textarea class="yes" name="innovationDescription"></textarea>
 			</section>
 			<footer class="innoDetails__footer">
 				<div class="pull-left">
@@ -97,6 +97,13 @@
 				<div class="pull-left">
 					<input type="name" name="innovationFund" placeholder="Ksh. 1,000,000" value="{{ old('innovationFund') }}">
 				</div>
+                <div>
+                    <textarea class="inno-summary" name="justifyFund" rows="5" placeholder="Whats the money for?">{{ old('justifyFund') }}</textarea>
+                </div>
+                <div>
+                    <input type="name" name="tradeMarkName" placeholder="Trademark Name" value="{{ old('tradeMarkName') }}">
+                    <input type="name" name="tradeMarkNumber" placeholder="Registration Number" value="{{ old('tradeMarkNumber') }}">
+                </div>
 				<div class="pull-right">
 					<button type="submit" class="cta cta__btn cta__publish">Publish</button>
 				</div>

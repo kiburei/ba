@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Md;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -27,7 +27,7 @@ class Chat extends Model
      */
     public function messages()
     {
-        return $this->hasMany('App\Message');
+        return $this->hasMany('Md\Message');
     }
 
     /**
@@ -35,6 +35,6 @@ class Chat extends Model
      */
     public function innovation()
     {
-        return $this->belongsTo('App\Innovation');
+        return $this->belongsTo('Md\Innovation');
     }
 }

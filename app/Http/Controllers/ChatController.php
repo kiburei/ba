@@ -1,9 +1,9 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Md\Http\Controllers;
 
-use App\Chat;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use App\Message;
+use Md\Chat;
+use Md\Http\Requests;
+use Md\Http\Controllers\Controller;
+use Md\Message;
 use Illuminate\Http\Request;
 
 class ChatController extends Controller
@@ -48,7 +48,7 @@ class ChatController extends Controller
             $item = new Chat;
             $item->innovation_id = $request->innovation_id;
             $item->investor_id = \Auth::user()->id;
-            $item->innovator_id = \App\Innovation::where('id', '=', $request->innovation_id)->first()->user_id;
+            $item->innovator_id = \Md\Innovation::where('id', '=', $request->innovation_id)->first()->user_id;
 
             $item->save();
 
